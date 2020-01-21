@@ -1,0 +1,253 @@
+2020-01-20 08:26:15.822 -05:00 [] Updating Logging { Application: "OnionPattern.Api" }
+2020-01-20 08:26:21.618 -05:00 [] Setting Kestrel Server Options { Application: "OnionPattern.Api" }
+2020-01-20 08:26:43.723 -05:00 [] Creando Banner Con nombre [string]... { Application: "OnionPattern.Api" }
+2020-01-20 08:26:43.987 -05:00 [] Banner creado con el nombre [string] con el Id: [1] { Application: "OnionPattern.Api" }
+2020-01-20 08:26:44.103 -05:00 [] CorrelationId 60699b7d-c521-442e-9212-880f97cd3cbe generated { Application: "OnionPattern.Api" }
+2020-01-20 08:26:44.111 -05:00 [] HTTP POST /api/v1/Banners responded 200 in 550 ms { CorrelationId: "60699b7d-c521-442e-9212-880f97cd3cbe", Application: "OnionPattern.Api" }
+2020-01-20 08:26:50.802 -05:00 [] Recuperando lista de Banners... { Application: "OnionPattern.Api" }
+2020-01-20 08:26:51.272 -05:00 [] Devuelto [1] Banners. { Application: "OnionPattern.Api" }
+2020-01-20 08:26:51.278 -05:00 [] CorrelationId 8ea6a0f3-7f66-4cb5-ac87-100db876d95c generated { Application: "OnionPattern.Api" }
+2020-01-20 08:26:51.280 -05:00 [] HTTP GET /api/v1/Banners responded 200 in 486 ms { CorrelationId: "8ea6a0f3-7f66-4cb5-ac87-100db876d95c", Application: "OnionPattern.Api" }
+2020-01-20 08:31:35.180 -05:00 [] Updating Logging { Application: "OnionPattern.Api" }
+2020-01-20 08:31:37.392 -05:00 [] Setting Kestrel Server Options { Application: "OnionPattern.Api" }
+2020-01-20 08:31:54.977 -05:00 [] Recuperando lista de Banners... { Application: "OnionPattern.Api" }
+2020-01-20 08:31:55.272 -05:00 [] No hay banners devueltos. { Application: "OnionPattern.Api" }
+System.Exception: No hay banners devueltos.
+2020-01-20 08:31:55.434 -05:00 [] CorrelationId 9e0a72a9-bfb2-4397-86a5-63fcadc70117 generated { Application: "OnionPattern.Api" }
+2020-01-20 08:31:55.443 -05:00 [] HTTP GET /api/v1/Banners responded 404 in 970 ms { CorrelationId: "9e0a72a9-bfb2-4397-86a5-63fcadc70117", Application: "OnionPattern.Api" }
+2020-01-20 08:32:05.357 -05:00 [] Creando Banner Con nombre [string]... { Application: "OnionPattern.Api" }
+2020-01-20 08:32:05.625 -05:00 [] Banner creado con el nombre [string] con el Id: [1] { Application: "OnionPattern.Api" }
+2020-01-20 08:32:05.640 -05:00 [] CorrelationId e58eda23-83b8-437d-bc8a-16a0d6b6c7e9 generated { Application: "OnionPattern.Api" }
+2020-01-20 08:32:05.643 -05:00 [] HTTP POST /api/v1/Banners responded 200 in 595 ms { CorrelationId: "e58eda23-83b8-437d-bc8a-16a0d6b6c7e9", Application: "OnionPattern.Api" }
+2020-01-20 08:32:11.809 -05:00 [] Recuperando lista de Banners... { Application: "OnionPattern.Api" }
+2020-01-20 08:32:11.846 -05:00 [] Devuelto [1] Banners. { Application: "OnionPattern.Api" }
+2020-01-20 08:32:11.849 -05:00 [] CorrelationId 163d7b71-e740-4380-b194-9366c8506833 generated { Application: "OnionPattern.Api" }
+2020-01-20 08:32:11.851 -05:00 [] HTTP GET /api/v1/Banners responded 200 in 52 ms { CorrelationId: "163d7b71-e740-4380-b194-9366c8506833", Application: "OnionPattern.Api" }
+2020-01-20 10:17:53.559 -05:00 [] Updating Logging { Application: "OnionPattern.Api" }
+2020-01-20 10:17:57.181 -05:00 [] Setting Kestrel Server Options { Application: "OnionPattern.Api" }
+2020-01-20 10:18:17.252 -05:00 [] Creando Banner Con nombre [string]... { Application: "OnionPattern.Api" }
+2020-01-20 10:18:17.518 -05:00 [] Banner creado con el nombre [string] con el Id: [1] { Application: "OnionPattern.Api" }
+2020-01-20 10:18:17.668 -05:00 [] CorrelationId e87728fb-2ba8-4ae1-9adb-c07005d2d85d generated { Application: "OnionPattern.Api" }
+2020-01-20 10:18:17.678 -05:00 [] HTTP POST /api/v1/Banners responded 200 in 584 ms { CorrelationId: "e87728fb-2ba8-4ae1-9adb-c07005d2d85d", Application: "OnionPattern.Api" }
+2020-01-20 10:18:25.424 -05:00 [] Recuperando lista de Banners... { Application: "OnionPattern.Api" }
+2020-01-20 10:18:26.080 -05:00 [] Devuelto [1] Banners. { Application: "OnionPattern.Api" }
+2020-01-20 10:18:26.085 -05:00 [] CorrelationId cbc8259e-a960-43c2-9e0d-11b8f59bc1f2 generated { Application: "OnionPattern.Api" }
+2020-01-20 10:18:26.086 -05:00 [] HTTP GET /api/v1/Banners responded 200 in 685 ms { CorrelationId: "cbc8259e-a960-43c2-9e0d-11b8f59bc1f2", Application: "OnionPattern.Api" }
+2020-01-20 10:24:46.953 -05:00 [] Updating Logging { Application: "OnionPattern.Api" }
+2020-01-20 10:24:48.485 -05:00 [] Setting Kestrel Server Options { Application: "OnionPattern.Api" }
+2020-01-20 10:25:01.281 -05:00 [] Recuperando lista de Menus... { Application: "OnionPattern.Api" }
+2020-01-20 10:25:01.582 -05:00 [] No hay menus devueltos. { Application: "OnionPattern.Api" }
+System.Exception: No hay menus devueltos.
+2020-01-20 10:25:01.792 -05:00 [] CorrelationId 10003e08-fa1f-49d2-b1a2-b9017fb01a4b generated { Application: "OnionPattern.Api" }
+2020-01-20 10:25:01.833 -05:00 [] HTTP GET /api/v1/Menus responded 404 in 160 ms { CorrelationId: "10003e08-fa1f-49d2-b1a2-b9017fb01a4b", Application: "OnionPattern.Api" }
+2020-01-20 10:25:14.487 -05:00 [] Creando Menu Con nombre [string]... { Application: "OnionPattern.Api" }
+2020-01-20 10:25:14.742 -05:00 [] Menu creado con el nombre [string] con el Id: [1] { Application: "OnionPattern.Api" }
+2020-01-20 10:25:14.764 -05:00 [] CorrelationId 49828840-f044-48e6-87fb-5771862fc691 generated { Application: "OnionPattern.Api" }
+2020-01-20 10:25:14.768 -05:00 [] HTTP POST /api/v1/Menus responded 200 in 559 ms { CorrelationId: "49828840-f044-48e6-87fb-5771862fc691", Application: "OnionPattern.Api" }
+2020-01-20 10:25:24.576 -05:00 [] Recuperando lista de Menus... { Application: "OnionPattern.Api" }
+2020-01-20 10:25:24.637 -05:00 [] Devuelto [1] Menus. { Application: "OnionPattern.Api" }
+2020-01-20 10:25:24.639 -05:00 [] CorrelationId c9feeb5b-10a7-4fe1-b704-a1f3a53dc7e4 generated { Application: "OnionPattern.Api" }
+2020-01-20 10:25:24.643 -05:00 [] HTTP GET /api/v1/Menus responded 200 in 70 ms { CorrelationId: "c9feeb5b-10a7-4fe1-b704-a1f3a53dc7e4", Application: "OnionPattern.Api" }
+2020-01-20 11:30:00.978 -05:00 [] Updating Logging { Application: "OnionPattern.Api" }
+2020-01-20 11:30:02.637 -05:00 [] Setting Kestrel Server Options { Application: "OnionPattern.Api" }
+2020-01-20 11:30:35.923 -05:00 [] Creando Banner Con nombre [string]... { Application: "OnionPattern.Api" }
+2020-01-20 11:30:36.202 -05:00 [] Banner creado con el nombre [string] con el Id: [1] { Application: "OnionPattern.Api" }
+2020-01-20 11:30:36.395 -05:00 [] CorrelationId be1a57da-df57-43bd-a203-7831e504819f generated { Application: "OnionPattern.Api" }
+2020-01-20 11:30:36.413 -05:00 [] HTTP POST /api/v1/Banners responded 200 in 530 ms { CorrelationId: "be1a57da-df57-43bd-a203-7831e504819f", Application: "OnionPattern.Api" }
+2020-01-20 11:30:43.743 -05:00 [] Recuperando lista de Banners... { Application: "OnionPattern.Api" }
+2020-01-20 11:30:44.162 -05:00 [] Devuelto [1] Banners. { Application: "OnionPattern.Api" }
+2020-01-20 11:30:44.170 -05:00 [] CorrelationId a0c1a963-4216-4186-a8c4-43f837b8fa07 generated { Application: "OnionPattern.Api" }
+2020-01-20 11:30:44.175 -05:00 [] HTTP GET /api/v1/Banners responded 200 in 439 ms { CorrelationId: "a0c1a963-4216-4186-a8c4-43f837b8fa07", Application: "OnionPattern.Api" }
+2020-01-20 11:30:53.936 -05:00 [] Recuperando lista de Menus... { Application: "OnionPattern.Api" }
+2020-01-20 11:30:53.950 -05:00 [] No hay menus devueltos. { Application: "OnionPattern.Api" }
+System.Exception: No hay menus devueltos.
+2020-01-20 11:30:54.010 -05:00 [] CorrelationId 7745ad9a-5969-456a-a8c6-a61db338a7c4 generated { Application: "OnionPattern.Api" }
+2020-01-20 11:30:54.015 -05:00 [] HTTP GET /api/v1/Menus responded 404 in 83 ms { CorrelationId: "7745ad9a-5969-456a-a8c6-a61db338a7c4", Application: "OnionPattern.Api" }
+2020-01-20 11:31:03.581 -05:00 [] Creando Menu Con nombre [string]... { Application: "OnionPattern.Api" }
+2020-01-20 11:31:03.602 -05:00 [] Menu creado con el nombre [string] con el Id: [1] { Application: "OnionPattern.Api" }
+2020-01-20 11:31:03.608 -05:00 [] CorrelationId 7079c07c-8d43-497c-9156-48f667116a0b generated { Application: "OnionPattern.Api" }
+2020-01-20 11:31:03.611 -05:00 [] HTTP POST /api/v1/Menus responded 200 in 40 ms { CorrelationId: "7079c07c-8d43-497c-9156-48f667116a0b", Application: "OnionPattern.Api" }
+2020-01-20 11:31:09.059 -05:00 [] Recuperando lista de Menus... { Application: "OnionPattern.Api" }
+2020-01-20 11:31:09.069 -05:00 [] Devuelto [1] Menus. { Application: "OnionPattern.Api" }
+2020-01-20 11:31:09.074 -05:00 [] CorrelationId 0305cc67-47b9-424c-9a9b-750fbd475414 generated { Application: "OnionPattern.Api" }
+2020-01-20 11:31:09.081 -05:00 [] HTTP GET /api/v1/Menus responded 200 in 23 ms { CorrelationId: "0305cc67-47b9-424c-9a9b-750fbd475414", Application: "OnionPattern.Api" }
+2020-01-20 11:32:31.121 -05:00 [] Creando Popup Con nombre [string]... { Application: "OnionPattern.Api" }
+2020-01-20 11:32:31.146 -05:00 [] Popup creado con el nombre [string] con el Id: [1] { Application: "OnionPattern.Api" }
+2020-01-20 11:32:31.152 -05:00 [] CorrelationId 27d658e8-62d0-44d8-8bbc-5a8105f3c061 generated { Application: "OnionPattern.Api" }
+2020-01-20 11:32:31.160 -05:00 [] HTTP POST /api/v1/Popups responded 200 in 63 ms { CorrelationId: "27d658e8-62d0-44d8-8bbc-5a8105f3c061", Application: "OnionPattern.Api" }
+2020-01-20 11:32:38.917 -05:00 [] Recuperando lista de Popups... { Application: "OnionPattern.Api" }
+2020-01-20 11:32:38.961 -05:00 [] Devuelto [1] Popups. { Application: "OnionPattern.Api" }
+2020-01-20 11:32:38.979 -05:00 [] CorrelationId d25b9343-ed9d-4595-ba36-0a7b906961cc generated { Application: "OnionPattern.Api" }
+2020-01-20 11:32:38.991 -05:00 [] HTTP GET /api/v1/Popups responded 200 in 78 ms { CorrelationId: "d25b9343-ed9d-4595-ba36-0a7b906961cc", Application: "OnionPattern.Api" }
+2020-01-20 11:32:52.408 -05:00 [] Creando Tab Con nombre [string]... { Application: "OnionPattern.Api" }
+2020-01-20 11:32:52.425 -05:00 [] Tab creado con el nombre [string] con el Id: [1] { Application: "OnionPattern.Api" }
+2020-01-20 11:32:52.437 -05:00 [] CorrelationId e20d7cb1-4f78-4ca5-a704-f69c6823bc0e generated { Application: "OnionPattern.Api" }
+2020-01-20 11:32:52.442 -05:00 [] HTTP POST /api/v1/Tabs responded 200 in 42 ms { CorrelationId: "e20d7cb1-4f78-4ca5-a704-f69c6823bc0e", Application: "OnionPattern.Api" }
+2020-01-20 11:32:59.580 -05:00 [] Recuperando lista de Tabs... { Application: "OnionPattern.Api" }
+2020-01-20 11:32:59.605 -05:00 [] Devuelto [1] Tabs. { Application: "OnionPattern.Api" }
+2020-01-20 11:32:59.613 -05:00 [] CorrelationId 69e4b6f0-8ae0-4c09-962f-2039a208dd00 generated { Application: "OnionPattern.Api" }
+2020-01-20 11:32:59.624 -05:00 [] HTTP GET /api/v1/Tabs responded 200 in 47 ms { CorrelationId: "69e4b6f0-8ae0-4c09-962f-2039a208dd00", Application: "OnionPattern.Api" }
+2020-01-20 11:33:17.054 -05:00 [] Creando Tema Con nombre [string]... { Application: "OnionPattern.Api" }
+2020-01-20 11:33:17.082 -05:00 [] Tema creado con el nombre [string] con el Id: [1] { Application: "OnionPattern.Api" }
+2020-01-20 11:33:17.087 -05:00 [] CorrelationId 7082d0f4-7d00-44c9-93d6-99373cd1aaeb generated { Application: "OnionPattern.Api" }
+2020-01-20 11:33:17.090 -05:00 [] HTTP POST /api/v1/Temas responded 200 in 49 ms { CorrelationId: "7082d0f4-7d00-44c9-93d6-99373cd1aaeb", Application: "OnionPattern.Api" }
+2020-01-20 11:33:24.291 -05:00 [] Recuperando lista de Temas... { Application: "OnionPattern.Api" }
+2020-01-20 11:33:24.343 -05:00 [] Devuelto [1] Temas. { Application: "OnionPattern.Api" }
+2020-01-20 11:33:24.349 -05:00 [] CorrelationId ffd164bc-51e7-4e09-8b6a-691e8c184dd5 generated { Application: "OnionPattern.Api" }
+2020-01-20 11:33:24.354 -05:00 [] HTTP GET /api/v1/Temas responded 200 in 65 ms { CorrelationId: "ffd164bc-51e7-4e09-8b6a-691e8c184dd5", Application: "OnionPattern.Api" }
+2020-01-20 11:33:41.342 -05:00 [] Recuperando lista de Usuarios... { Application: "OnionPattern.Api" }
+2020-01-20 11:33:41.422 -05:00 [] CorrelationId f9dc64c2-fbd4-453f-a75b-05393b78fa46 generated { Application: "OnionPattern.Api" }
+2020-01-20 11:33:42.841 -05:00 [] Devuelto [10] Usuarios. { Application: "OnionPattern.Api" }
+2020-01-20 11:33:42.874 -05:00 [] HTTP GET /api/v1/UsersAsync/all responded 200 in 609 ms { CorrelationId: "f9dc64c2-fbd4-453f-a75b-05393b78fa46", Application: "OnionPattern.Api" }
+2020-01-20 11:34:08.174 -05:00 [] Input Id debe ser 1 or mayor. { Application: "OnionPattern.Api" }
+System.ArgumentException: Input Id debe ser 1 or mayor.
+   at OnionPattern.Service.Requests.Tema.UpdateTemaRequest.CheckInputValidity(UpdateTemaInput input) in D:\Difare\DifareArquitecturaCore\Fuentes\CoreApp\Backend\Difare-BackEnd\GDifare.Onion.Service\Requests\Tema\UpdateTemaRequest.cs:line 61
+   at OnionPattern.Service.Requests.Tema.UpdateTemaRequest.Execute(UpdateTemaInput input) in D:\Difare\DifareArquitecturaCore\Fuentes\CoreApp\Backend\Difare-BackEnd\GDifare.Onion.Service\Requests\Tema\UpdateTemaRequest.cs:line 25
+2020-01-20 11:34:08.541 -05:00 [] CorrelationId 70109086-4597-41dc-9ce7-3097840e3118 generated { Application: "OnionPattern.Api" }
+2020-01-20 11:34:08.544 -05:00 [] HTTP PUT /api/v1/Temas responded 500 in 618 ms { CorrelationId: "70109086-4597-41dc-9ce7-3097840e3118", Application: "OnionPattern.Api" }
+2020-01-20 11:34:18.946 -05:00 [] Actualizando Tema por Id: [1] con nuevo nombre: [string]... { Application: "OnionPattern.Api" }
+2020-01-20 11:34:19.100 -05:00 [] Actualizado con exito el tema con Id: [1] con nuevo nombre [string]. { Application: "OnionPattern.Api" }
+2020-01-20 11:34:19.102 -05:00 [] CorrelationId ac278986-1602-4806-b0d6-2cfe1376b7bc generated { Application: "OnionPattern.Api" }
+2020-01-20 11:34:19.104 -05:00 [] HTTP PUT /api/v1/Temas responded 200 in 160 ms { CorrelationId: "ac278986-1602-4806-b0d6-2cfe1376b7bc", Application: "OnionPattern.Api" }
+2020-01-20 11:34:32.555 -05:00 [] Actualizando Tema por Id: [1] con nuevo nombre: [string2]... { Application: "OnionPattern.Api" }
+2020-01-20 11:34:32.571 -05:00 [] Actualizado con exito el tema con Id: [1] con nuevo nombre [string2]. { Application: "OnionPattern.Api" }
+2020-01-20 11:34:32.573 -05:00 [] CorrelationId 33d79e5f-10c1-4e8a-8c42-7f69565ef72c generated { Application: "OnionPattern.Api" }
+2020-01-20 11:34:32.591 -05:00 [] HTTP PUT /api/v1/Temas responded 200 in 36 ms { CorrelationId: "33d79e5f-10c1-4e8a-8c42-7f69565ef72c", Application: "OnionPattern.Api" }
+2020-01-20 11:51:52.761 -05:00 [] Updating Logging { Application: "OnionPattern.Api" }
+2020-01-20 11:51:55.022 -05:00 [] Setting Kestrel Server Options { Application: "OnionPattern.Api" }
+2020-01-20 12:07:05.014 -05:00 [] Updating Logging { Application: "OnionPattern.Api" }
+2020-01-20 12:07:08.343 -05:00 [] Setting Kestrel Server Options { Application: "OnionPattern.Api" }
+2020-01-20 12:07:33.851 -05:00 [] Creando Banner Con nombre [string]... { Application: "OnionPattern.Api" }
+2020-01-20 12:08:00.541 -05:00 [] Error al crear el Banner: [string]. { Application: "OnionPattern.Api" }
+System.FormatException: The input is not a valid Base-64 string as it contains a non-base 64 character, more than two padding characters, or an illegal character among the padding characters.
+   at System.Convert.FromBase64CharPtr(Char* inputPtr, Int32 inputLength)
+   at System.Convert.FromBase64String(String s)
+   at OnionPattern.Service.Requests.Banner.CreateBannerRequest.Execute(CreateBannerInput input) in D:\Difare\DifareArquitecturaCoreBack\CoreApp\Backend\Difare-BackEnd\GDifare.Onion.Service\Requests\Banner\CreateBannerRequest.cs:line 27
+2020-01-20 12:08:20.078 -05:00 [] CorrelationId 132c8c2d-674c-47d4-8279-5750b64702c7 generated { Application: "OnionPattern.Api" }
+2020-01-20 12:08:20.089 -05:00 [] HTTP POST /api/v1/Banners responded 500 in 40 ms { CorrelationId: "132c8c2d-674c-47d4-8279-5750b64702c7", Application: "OnionPattern.Api" }
+2020-01-20 12:45:40.753 -05:00 [] Updating Logging { Application: "OnionPattern.Api" }
+2020-01-20 12:45:42.624 -05:00 [] Setting Kestrel Server Options { Application: "OnionPattern.Api" }
+2020-01-20 12:46:17.797 -05:00 [] Creando Banner Con nombre [string]... { Application: "OnionPattern.Api" }
+2020-01-20 12:46:35.320 -05:00 [] Banner creado con el nombre [string] con el Id: [1] { Application: "OnionPattern.Api" }
+2020-01-20 12:46:41.715 -05:00 [] CorrelationId 28cc347f-8e42-4ec7-b887-5650c7a9f5a4 generated { Application: "OnionPattern.Api" }
+2020-01-20 12:46:41.728 -05:00 [] HTTP POST /api/v1/Banners responded 200 in 771 ms { CorrelationId: "28cc347f-8e42-4ec7-b887-5650c7a9f5a4", Application: "OnionPattern.Api" }
+2020-01-20 12:46:51.423 -05:00 [] Recuperando lista de Banners... { Application: "OnionPattern.Api" }
+2020-01-20 12:46:51.828 -05:00 [] Devuelto [1] Banners. { Application: "OnionPattern.Api" }
+2020-01-20 12:46:51.833 -05:00 [] CorrelationId 17bb13f5-6549-4500-882f-5c6c68c150ec generated { Application: "OnionPattern.Api" }
+2020-01-20 12:46:51.836 -05:00 [] HTTP GET /api/v1/Banners responded 200 in 420 ms { CorrelationId: "17bb13f5-6549-4500-882f-5c6c68c150ec", Application: "OnionPattern.Api" }
+2020-01-20 12:48:56.238 -05:00 [] Updating Logging { Application: "OnionPattern.Api" }
+2020-01-20 12:48:57.927 -05:00 [] Setting Kestrel Server Options { Application: "OnionPattern.Api" }
+2020-01-20 14:01:17.946 -05:00 [] Updating Logging { Application: "OnionPattern.Api" }
+2020-01-20 14:01:19.650 -05:00 [] Setting Kestrel Server Options { Application: "OnionPattern.Api" }
+2020-01-20 14:01:45.089 -05:00 [] Creando Banner Con nombre [string]... { Application: "OnionPattern.Api" }
+2020-01-20 14:01:45.423 -05:00 [] Banner creado con el nombre [string] con el Id: [1] { Application: "OnionPattern.Api" }
+2020-01-20 14:01:45.768 -05:00 [] CorrelationId d4672a96-41c3-4b75-ad6c-127bd6887230 generated { Application: "OnionPattern.Api" }
+2020-01-20 14:01:46.017 -05:00 [] HTTP POST /api/v1/Banners responded 200 in 48 ms { CorrelationId: "d4672a96-41c3-4b75-ad6c-127bd6887230", Application: "OnionPattern.Api" }
+2020-01-20 14:01:57.539 -05:00 [] Creando Banner Con nombre [string]... { Application: "OnionPattern.Api" }
+2020-01-20 14:03:28.661 -05:00 [] Updating Logging { Application: "OnionPattern.Api" }
+2020-01-20 14:03:30.287 -05:00 [] Setting Kestrel Server Options { Application: "OnionPattern.Api" }
+2020-01-20 14:04:00.071 -05:00 [] Creando Banner Con nombre [string]... { Application: "OnionPattern.Api" }
+2020-01-20 14:07:29.644 -05:00 [] Updating Logging { Application: "OnionPattern.Api" }
+2020-01-20 14:07:32.151 -05:00 [] Setting Kestrel Server Options { Application: "OnionPattern.Api" }
+2020-01-20 14:07:59.062 -05:00 [] Creando Banner Con nombre [string]... { Application: "OnionPattern.Api" }
+2020-01-20 14:57:17.893 -05:00 [] Updating Logging { Application: "OnionPattern.Api" }
+2020-01-20 14:57:19.525 -05:00 [] Setting Kestrel Server Options { Application: "OnionPattern.Api" }
+2020-01-20 14:57:36.551 -05:00 [] Creando Banner Con nombre [string]... { Application: "OnionPattern.Api" }
+2020-01-20 14:57:36.788 -05:00 [] Error al crear el Banner: [string]. { Application: "OnionPattern.Api" }
+System.FormatException: The input is not a valid Base-64 string as it contains a non-base 64 character, more than two padding characters, or an illegal character among the padding characters.
+   at System.Convert.FromBase64CharPtr(Char* inputPtr, Int32 inputLength)
+   at System.Convert.FromBase64String(String s)
+   at OnionPattern.Service.Requests.Banner.CreateBannerRequest.Execute(CreateBannerInput input) in D:\Difare\DifareArquitecturaCoreBack\CoreApp\Backend\Difare-BackEnd\GDifare.Onion.Service\Requests\Banner\CreateBannerRequest.cs:line 28
+2020-01-20 14:57:37.308 -05:00 [] CorrelationId 60734ea8-92be-45af-a8d7-d911b32a0f0e generated { Application: "OnionPattern.Api" }
+2020-01-20 14:57:37.324 -05:00 [] HTTP POST /api/v1/Banners responded 500 in 677 ms { CorrelationId: "60734ea8-92be-45af-a8d7-d911b32a0f0e", Application: "OnionPattern.Api" }
+2020-01-20 14:57:53.916 -05:00 [] CorrelationId 0d3209c4-df4e-47df-b815-ada65e09ecf0 generated { Application: "OnionPattern.Api" }
+2020-01-20 14:57:53.919 -05:00 [] HTTP POST /api/v1/Banners responded 400 in 75 ms { CorrelationId: "0d3209c4-df4e-47df-b815-ada65e09ecf0", Application: "OnionPattern.Api" }
+2020-01-20 14:58:32.375 -05:00 [] Creando Banner Con nombre [string]... { Application: "OnionPattern.Api" }
+2020-01-20 14:58:32.667 -05:00 [] Banner creado con el nombre [string] con el Id: [1] { Application: "OnionPattern.Api" }
+2020-01-20 14:58:32.695 -05:00 [] CorrelationId 617d6831-ae31-4bd0-ab16-502a08c44dba generated { Application: "OnionPattern.Api" }
+2020-01-20 14:58:32.700 -05:00 [] HTTP POST /api/v1/Banners responded 200 in 332 ms { CorrelationId: "617d6831-ae31-4bd0-ab16-502a08c44dba", Application: "OnionPattern.Api" }
+2020-01-20 14:58:58.593 -05:00 [] Recuperando lista de Banners... { Application: "OnionPattern.Api" }
+2020-01-20 14:58:59.024 -05:00 [] Devuelto [1] Banners. { Application: "OnionPattern.Api" }
+2020-01-20 14:58:59.029 -05:00 [] CorrelationId ec2e0e9b-004e-4880-a09a-424ea885e9b2 generated { Application: "OnionPattern.Api" }
+2020-01-20 14:58:59.034 -05:00 [] HTTP GET /api/v1/Banners responded 200 in 453 ms { CorrelationId: "ec2e0e9b-004e-4880-a09a-424ea885e9b2", Application: "OnionPattern.Api" }
+2020-01-20 14:59:39.940 -05:00 [] Creando Banner Con nombre [string]... { Application: "OnionPattern.Api" }
+2020-01-20 14:59:40.030 -05:00 [] Error al crear el Banner: [string]. { Application: "OnionPattern.Api" }
+System.FormatException: The input is not a valid Base-64 string as it contains a non-base 64 character, more than two padding characters, or an illegal character among the padding characters.
+   at System.Convert.FromBase64CharPtr(Char* inputPtr, Int32 inputLength)
+   at System.Convert.FromBase64String(String s)
+   at OnionPattern.Service.Requests.Banner.CreateBannerRequest.Execute(CreateBannerInput input) in D:\Difare\DifareArquitecturaCoreBack\CoreApp\Backend\Difare-BackEnd\GDifare.Onion.Service\Requests\Banner\CreateBannerRequest.cs:line 28
+2020-01-20 14:59:40.035 -05:00 [] CorrelationId 2370f7dc-9592-49ba-8105-dd60899d3a41 generated { Application: "OnionPattern.Api" }
+2020-01-20 14:59:40.037 -05:00 [] HTTP POST /api/v1/Banners responded 500 in 97 ms { CorrelationId: "2370f7dc-9592-49ba-8105-dd60899d3a41", Application: "OnionPattern.Api" }
+2020-01-20 15:10:01.570 -05:00 [] Updating Logging { Application: "OnionPattern.Api" }
+2020-01-20 15:10:03.247 -05:00 [] Setting Kestrel Server Options { Application: "OnionPattern.Api" }
+2020-01-20 15:10:22.178 -05:00 [] Creando Banner Con nombre [string]... { Application: "OnionPattern.Api" }
+2020-01-20 15:10:22.303 -05:00 [] Error al crear el Banner: [string]. { Application: "OnionPattern.Api" }
+System.FormatException: The input is not a valid Base-64 string as it contains a non-base 64 character, more than two padding characters, or an illegal character among the padding characters.
+   at System.Convert.FromBase64CharPtr(Char* inputPtr, Int32 inputLength)
+   at System.Convert.FromBase64String(String s)
+   at OnionPattern.Service.Requests.Banner.CreateBannerRequest.Execute(CreateBannerInput input) in D:\Difare\DifareArquitecturaCoreBack\CoreApp\Backend\Difare-BackEnd\GDifare.Onion.Service\Requests\Banner\CreateBannerRequest.cs:line 28
+2020-01-20 15:10:22.467 -05:00 [] CorrelationId a6d4be24-a78b-4d18-89f6-2c6d70b84f77 generated { Application: "OnionPattern.Api" }
+2020-01-20 15:10:22.478 -05:00 [] HTTP POST /api/v1/Banners responded 500 in 969 ms { CorrelationId: "a6d4be24-a78b-4d18-89f6-2c6d70b84f77", Application: "OnionPattern.Api" }
+2020-01-20 16:05:49.352 -05:00 [] Updating Logging { Application: "OnionPattern.Api" }
+2020-01-20 16:05:51.093 -05:00 [] Setting Kestrel Server Options { Application: "OnionPattern.Api" }
+2020-01-20 16:06:39.793 -05:00 [] Recuperando lista de Temas... { Application: "OnionPattern.Api" }
+2020-01-20 16:06:40.111 -05:00 [] No hay temas devueltos. { Application: "OnionPattern.Api" }
+System.Exception: No hay temas devueltos.
+2020-01-20 16:06:40.241 -05:00 [] CorrelationId 87e85aa3-6c13-446a-a693-e0d1b02dc37e generated { Application: "OnionPattern.Api" }
+2020-01-20 16:06:40.250 -05:00 [] HTTP GET /api/v1/Temas/ArchivoScss responded 404 in 4 ms { CorrelationId: "87e85aa3-6c13-446a-a693-e0d1b02dc37e", Application: "OnionPattern.Api" }
+2020-01-20 16:06:52.213 -05:00 [] Creando Tema Con nombre [string]... { Application: "OnionPattern.Api" }
+2020-01-20 16:06:52.487 -05:00 [] Tema creado con el nombre [string] con el Id: [1] { Application: "OnionPattern.Api" }
+2020-01-20 16:06:52.501 -05:00 [] CorrelationId b314e4b1-1fdc-4102-9bba-ca3437fb8933 generated { Application: "OnionPattern.Api" }
+2020-01-20 16:06:52.505 -05:00 [] HTTP POST /api/v1/Temas responded 200 in 609 ms { CorrelationId: "b314e4b1-1fdc-4102-9bba-ca3437fb8933", Application: "OnionPattern.Api" }
+2020-01-20 16:06:59.795 -05:00 [] Recuperando lista de Temas... { Application: "OnionPattern.Api" }
+2020-01-20 16:06:59.849 -05:00 [] Devuelto [1] Temas. { Application: "OnionPattern.Api" }
+2020-01-20 16:06:59.853 -05:00 [] CorrelationId c57e83e2-43d4-4528-89fb-389f2007b097 generated { Application: "OnionPattern.Api" }
+2020-01-20 16:06:59.881 -05:00 [] HTTP GET /api/v1/Temas/ArchivoScss responded 200 in 90 ms { CorrelationId: "c57e83e2-43d4-4528-89fb-389f2007b097", Application: "OnionPattern.Api" }
+2020-01-20 16:23:24.109 -05:00 [] Updating Logging { Application: "OnionPattern.Api" }
+2020-01-20 16:23:25.665 -05:00 [] Setting Kestrel Server Options { Application: "OnionPattern.Api" }
+2020-01-20 16:44:32.509 -05:00 [] Updating Logging { Application: "OnionPattern.Api" }
+2020-01-20 16:44:34.389 -05:00 [] Setting Kestrel Server Options { Application: "OnionPattern.Api" }
+2020-01-20 17:21:00.884 -05:00 [] Updating Logging { Application: "OnionPattern.Api" }
+2020-01-20 17:21:03.002 -05:00 [] Setting Kestrel Server Options { Application: "OnionPattern.Api" }
+2020-01-20 17:23:21.041 -05:00 [] Updating Logging { Application: "OnionPattern.Api" }
+2020-01-20 17:23:22.905 -05:00 [] Setting Kestrel Server Options { Application: "OnionPattern.Api" }
+2020-01-20 17:24:21.886 -05:00 [] Updating Logging { Application: "OnionPattern.Api" }
+2020-01-20 17:24:23.791 -05:00 [] Setting Kestrel Server Options { Application: "OnionPattern.Api" }
+2020-01-20 17:44:19.481 -05:00 [] Updating Logging { Application: "OnionPattern.Api" }
+2020-01-20 17:44:22.395 -05:00 [] Setting Kestrel Server Options { Application: "OnionPattern.Api" }
+2020-01-20 17:45:03.883 -05:00 [] Creando Banner Con nombre [string]... { Application: "OnionPattern.Api" }
+2020-01-20 17:45:04.079 -05:00 [] Error al crear el Banner: [string]. { Application: "OnionPattern.Api" }
+System.FormatException: The input is not a valid Base-64 string as it contains a non-base 64 character, more than two padding characters, or an illegal character among the padding characters.
+   at System.Convert.FromBase64CharPtr(Char* inputPtr, Int32 inputLength)
+   at System.Convert.FromBase64String(String s)
+   at OnionPattern.Service.Requests.Banner.CreateBannerRequest.Execute(CreateBannerInput input) in D:\Difare\DifareArquitecturaCoreBack\CoreApp\Backend\Difare-BackEnd\GDifare.Onion.Service\Requests\Banner\CreateBannerRequest.cs:line 28
+2020-01-20 17:45:04.476 -05:00 [] CorrelationId dbb5cfc5-e3b6-4e2e-88a7-80446fdbdc59 generated { Application: "OnionPattern.Api" }
+2020-01-20 17:45:04.484 -05:00 [] HTTP POST /api/v1/Banners responded 500 in 833 ms { CorrelationId: "dbb5cfc5-e3b6-4e2e-88a7-80446fdbdc59", Application: "OnionPattern.Api" }
+2020-01-20 17:45:36.717 -05:00 [] Creando Banner Con nombre [string]... { Application: "OnionPattern.Api" }
+2020-01-20 17:45:37.375 -05:00 [] Banner creado con el nombre [string] con el Id: [1] { Application: "OnionPattern.Api" }
+2020-01-20 17:45:37.395 -05:00 [] CorrelationId e044a2c4-7fbd-4f85-b68f-c8d83758bba9 generated { Application: "OnionPattern.Api" }
+2020-01-20 17:45:37.397 -05:00 [] HTTP POST /api/v1/Banners responded 200 in 699 ms { CorrelationId: "e044a2c4-7fbd-4f85-b68f-c8d83758bba9", Application: "OnionPattern.Api" }
+2020-01-20 17:45:43.281 -05:00 [] Creando Banner Con nombre [string]... { Application: "OnionPattern.Api" }
+2020-01-20 17:45:43.292 -05:00 [] Banner creado con el nombre [string] con el Id: [2] { Application: "OnionPattern.Api" }
+2020-01-20 17:45:43.303 -05:00 [] CorrelationId f107939f-d149-45e8-81a8-557e1a977892 generated { Application: "OnionPattern.Api" }
+2020-01-20 17:45:43.312 -05:00 [] HTTP POST /api/v1/Banners responded 200 in 50 ms { CorrelationId: "f107939f-d149-45e8-81a8-557e1a977892", Application: "OnionPattern.Api" }
+2020-01-20 17:45:53.543 -05:00 [] Recuperando lista de Banners... { Application: "OnionPattern.Api" }
+2020-01-20 17:45:54.164 -05:00 [] Devuelto [2] Banners. { Application: "OnionPattern.Api" }
+2020-01-20 17:45:54.173 -05:00 [] CorrelationId 00f23b68-2de2-42b4-820f-10bd8daadb74 generated { Application: "OnionPattern.Api" }
+2020-01-20 17:45:54.175 -05:00 [] HTTP GET /api/v1/Banners responded 200 in 679 ms { CorrelationId: "00f23b68-2de2-42b4-820f-10bd8daadb74", Application: "OnionPattern.Api" }
+2020-01-20 17:47:05.346 -05:00 [] Creando Menu Con nombre [string]... { Application: "OnionPattern.Api" }
+2020-01-20 17:47:05.432 -05:00 [] Error al crear el Menu: [string]. { Application: "OnionPattern.Api" }
+System.FormatException: The input is not a valid Base-64 string as it contains a non-base 64 character, more than two padding characters, or an illegal character among the padding characters.
+   at System.Convert.FromBase64CharPtr(Char* inputPtr, Int32 inputLength)
+   at System.Convert.FromBase64String(String s)
+   at OnionPattern.Service.Requests.Menu.CreateMenuRequest.Execute(CreateMenuInput input) in D:\Difare\DifareArquitecturaCoreBack\CoreApp\Backend\Difare-BackEnd\GDifare.Onion.Service\Requests\Menu\CreateMenuRequest.cs:line 27
+2020-01-20 17:47:05.442 -05:00 [] CorrelationId 53dfd0fd-c79b-4426-a4d6-ba866c6b68fb generated { Application: "OnionPattern.Api" }
+2020-01-20 17:47:05.447 -05:00 [] HTTP POST /api/v1/Menus responded 500 in 125 ms { CorrelationId: "53dfd0fd-c79b-4426-a4d6-ba866c6b68fb", Application: "OnionPattern.Api" }
+2020-01-20 17:47:22.594 -05:00 [] Creando Menu Con nombre [string]... { Application: "OnionPattern.Api" }
+2020-01-20 17:47:22.619 -05:00 [] Menu creado con el nombre [string] con el Id: [1] { Application: "OnionPattern.Api" }
+2020-01-20 17:47:22.623 -05:00 [] CorrelationId 062225b6-9b42-4191-8655-1be0448822b5 generated { Application: "OnionPattern.Api" }
+2020-01-20 17:47:22.630 -05:00 [] HTTP POST /api/v1/Menus responded 200 in 37 ms { CorrelationId: "062225b6-9b42-4191-8655-1be0448822b5", Application: "OnionPattern.Api" }
+2020-01-20 17:50:35.207 -05:00 [] Creando Tema Con nombre [--ion-color-primary]... { Application: "OnionPattern.Api" }
+2020-01-20 17:50:35.223 -05:00 [] Tema creado con el nombre [--ion-color-primary] con el Id: [1] { Application: "OnionPattern.Api" }
+2020-01-20 17:50:35.231 -05:00 [] CorrelationId 841fda7e-86f7-4eb4-8747-52f35b5b48f9 generated { Application: "OnionPattern.Api" }
+2020-01-20 17:50:35.236 -05:00 [] HTTP POST /api/v1/Temas responded 200 in 41 ms { CorrelationId: "841fda7e-86f7-4eb4-8747-52f35b5b48f9", Application: "OnionPattern.Api" }

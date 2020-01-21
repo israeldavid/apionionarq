@@ -1,0 +1,499 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>GDifare.Onion.Api</name>
+    </assembly>
+    <members>
+        <member name="T:OnionPattern.Api.Configuration.Program.KestrelConfiguration">
+            <summary>
+            Kestrel Configuration Class
+            </summary>
+        </member>
+        <member name="M:OnionPattern.Api.Configuration.Program.KestrelConfiguration.Configure(Microsoft.AspNetCore.Server.Kestrel.Core.KestrelServerOptions,Microsoft.AspNetCore.Hosting.IHostingEnvironment,Microsoft.Extensions.Configuration.IConfiguration,System.Int32)">
+            <summary>
+            Configure Kestrel to run consistantly across the Sentinel
+            Web and Api projects.
+            </summary>
+            <param name="options"></param>
+            <param name="hostingEnvironment">Hosting Environment Properites</param>
+            <param name="configuration">Configuration Properties</param>
+            <param name="localPort">Choose the port for this service to function on</param>
+        </member>
+        <member name="T:OnionPattern.Api.Configuration.Program.SerilogConfiguration">
+            <summary>
+            Configurations for Serilog
+            </summary>
+        </member>
+        <member name="M:OnionPattern.Api.Configuration.Program.SerilogConfiguration.Configure(Microsoft.AspNetCore.Hosting.IHostingEnvironment,Microsoft.Extensions.Configuration.IConfiguration,Microsoft.Extensions.Logging.ILoggingBuilder,System.String)">
+            <summary>
+            Setup Serilog
+            Minimum Level: Verbose
+            Minimum Level Override: Microsoft Verbose
+            Enrich: FromLogContext
+            File: Rolling
+            </summary>
+            <param name="hostingEnvironment">Hosting Environment Information</param>
+            <param name="configuration">Configuration Information</param>
+            <param name="logging">Logging Information</param>
+            <param name="applicationName">Name of Application. I.E: Sentinel.Web, Sentinel.Registration.Api</param>
+            <exception cref="T:System.ArgumentNullException"><paramref name="hostingEnvironment"/> is <see langword="null"/></exception>
+            <exception cref="T:System.ArgumentException">Condition.</exception>
+        </member>
+        <member name="T:OnionPattern.Api.Configuration.Startup.ApiVersioning.ApiVersioningConfiguration">
+            <summary>
+            Api Versioning Configurations
+            </summary>
+        </member>
+        <member name="M:OnionPattern.Api.Configuration.Startup.ApiVersioning.ApiVersioningConfiguration.ConfigureService(Microsoft.Extensions.DependencyInjection.IServiceCollection)">
+            <summary>
+            Turn on and configuration the Api MVC Versioning with the services.
+            
+            Api Explorer is turned on so that Swagger can understand the versioning routing.
+            </summary>
+            <param name="services">Services Collection</param>
+        </member>
+        <member name="T:OnionPattern.Api.Configuration.Startup.AppSettings.LoadAppSettings">
+            <summary>
+            Loads the Appsettings file configurations into the dependency injector.
+            </summary>
+        </member>
+        <member name="M:OnionPattern.Api.Configuration.Startup.AppSettings.LoadAppSettings.IntoInjector(Microsoft.Extensions.DependencyInjection.IServiceCollection,Microsoft.Extensions.Configuration.IConfigurationRoot)">
+            <summary>
+            Load configuration into the injector.
+            </summary>
+            <param name="services">Injector service</param>
+            <param name="configuration">Configurations object.</param>
+        </member>
+        <member name="T:OnionPattern.Api.Configuration.Startup.Cors.CorsStartupConfiguration">
+            <summary>
+            CORS Configurations
+            </summary>
+        </member>
+        <member name="M:OnionPattern.Api.Configuration.Startup.Cors.CorsStartupConfiguration.ConfigureServices(Microsoft.Extensions.DependencyInjection.IServiceCollection)">
+            <summary>
+            Configure CORS services.
+            </summary>
+            <param name="services"></param>
+        </member>
+        <member name="T:OnionPattern.Api.Configuration.Startup.Logging.CallContext`1">
+            <summary>
+            A cross the application call dictionary.
+            </summary>
+            <typeparam name="T">Stored Item Type</typeparam>
+        </member>
+        <member name="M:OnionPattern.Api.Configuration.Startup.Logging.CallContext`1.SetData(System.String,`0)">
+            <summary>
+            Stores a given object and associates it with the specified name.
+            </summary>
+            <param name="name">The name with which to associate the new item in the call context.</param>
+            <param name="data">The object to store in the call context.</param>
+        </member>
+        <member name="M:OnionPattern.Api.Configuration.Startup.Logging.CallContext`1.GetData(System.String)">
+            <summary>
+            Retrieves an object with the specified name from the <see cref="T:OnionPattern.Api.Configuration.Startup.Logging.CallContext`1"/> >.
+            </summary>
+            The type of the data being retrieved. Must match the type used when the <paramref name="name"/> 
+            was set via <see cref="M:OnionPattern.Api.Configuration.Startup.Logging.CallContext`1.SetData(System.String,`0)"/>.
+            <param name="name">The name of the item in the call context.</param>
+            <returns>
+            The object in the call context associated with the specified name, 
+            or a default value for <typeparamref name="T"/> if none is found.
+            </returns>
+        </member>
+        <member name="T:OnionPattern.Api.Configuration.Startup.Logging.CorrelationMiddleware">
+            <summary>
+            Configures Application Middleware to pass a correlation Id between internal and external
+            call. This will attach the correlation id to Serilog's Log Context Property bag.
+            </summary>
+        </member>
+        <member name="M:OnionPattern.Api.Configuration.Startup.Logging.CorrelationMiddleware.Configure(Microsoft.AspNetCore.Builder.IApplicationBuilder)">
+            <summary>
+            Configure Correlation Id Middleware
+            </summary>
+            <param name="application"></param>
+        </member>
+        <member name="T:OnionPattern.Api.Configuration.Startup.Swagger.SwaggerDefaultValues">
+            <summary>
+            Represents the Swagger/Swashbuckle operation filter used to document the implicit API version parameter.
+            </summary>
+            <remarks>This <see cref="T:Swashbuckle.AspNetCore.SwaggerGen.IOperationFilter"/> is only required due to bugs in the <see cref="T:Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator"/>.
+            Once they are fixed and published, this class can be removed.</remarks>
+        </member>
+        <member name="M:OnionPattern.Api.Configuration.Startup.Swagger.SwaggerDefaultValues.Apply(Swashbuckle.AspNetCore.Swagger.Operation,Swashbuckle.AspNetCore.SwaggerGen.OperationFilterContext)">
+            <summary>
+            Applies the filter to the specified operation using the given context.
+            </summary>
+            <param name="operation">The operation to apply the filter to.</param>
+            <param name="context">The current operation filter context.</param>
+        </member>
+        <member name="T:OnionPattern.Api.Configuration.Startup.Swagger.SwaggerStartupConfiguration">
+            <summary>
+            Swagger Startup Configuration
+            </summary>
+        </member>
+        <member name="M:OnionPattern.Api.Configuration.Startup.Swagger.SwaggerStartupConfiguration.ConfigureService(Microsoft.Extensions.DependencyInjection.IServiceCollection,Microsoft.AspNetCore.Hosting.IHostingEnvironment)">
+            <summary>
+                Setup configuration for Swagger
+            </summary>
+            <param name="services"></param>
+            <param name="hostingEnvironment"></param>
+        </member>
+        <member name="M:OnionPattern.Api.Configuration.Startup.Swagger.SwaggerStartupConfiguration.Configure(Microsoft.AspNetCore.Builder.IApplicationBuilder,Microsoft.AspNetCore.Mvc.ApiExplorer.IApiVersionDescriptionProvider)">
+            <summary>
+            Configure the Swagger Endpoints and Middleware
+            </summary>
+            <param name="application"></param>
+            <param name="apiVersionDescriptionProvider"></param>
+        </member>
+        <member name="T:OnionPattern.Api.Controllers.Banner.Banners">
+            <inheritdoc />
+            <summary>
+            Banner Controller
+            </summary>
+        </member>
+        <member name="M:OnionPattern.Api.Controllers.Banner.Banners.#ctor(OnionPattern.Domain.IServices.RequestAggregate.IBannerRequestAggregate)">
+            <inheritdoc />
+            <summary>
+            Banner Controller
+            </summary>
+            <param name="bannerRequestAggregate"></param>
+        </member>
+        <member name="M:OnionPattern.Api.Controllers.Banner.Banners.Get">
+            <summary>
+            Obtener todo los banners.
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:OnionPattern.Api.Controllers.Banner.Banners.Get(System.Int32)">
+            <summary>
+            Obtener banner por Id
+            </summary>
+            <param name="id">Id of the Banner.</param>
+            <returns></returns>
+        </member>
+        <member name="M:OnionPattern.Api.Controllers.Banner.Banners.Crear(OnionPattern.Domain.Entities.Banner.Requests.CreateBannerInput)">
+            <summary>
+            Crear un nuevo banner
+            </summary>
+            <param name="banner">Informacion del banner</param>
+            <returns>Banner Creado</returns>
+        </member>
+        <member name="M:OnionPattern.Api.Controllers.Banner.Banners.Put(OnionPattern.Domain.Entities.Banner.Requests.UpdateBannerInput)">
+            <summary>
+            Actualiza la imagen del banner.
+            </summary>
+            <param name="input">Informacion a actualizar</param>
+            <returns>Banner Actualizado</returns>
+        </member>
+        <member name="M:OnionPattern.Api.Controllers.Banner.Banners.Delete(System.Int32)">
+            <summary>
+            Elimina un banner por su Id
+            </summary>
+            <param name="id">Id de el banner</param>
+            <returns>Banner eliminado</returns>
+        </member>
+        <member name="T:OnionPattern.Api.Controllers.BaseAsyncController">
+            <inheritdoc />
+            <summary>
+            Base Async Controller for Common Methods
+            </summary>
+        </member>
+        <member name="M:OnionPattern.Api.Controllers.BaseAsyncController.ExecuteAndHandleRequestAsync``1(System.Func{System.Threading.Tasks.Task{``0}})">
+            <summary>
+            ExecuteAsync and Handle the Request
+            </summary>
+            <typeparam name="TReturn">Return Type of the Action</typeparam>
+            <param name="action">Action to ExecuteAsync</param>
+            <returns>IActionResult</returns>
+        </member>
+        <member name="M:OnionPattern.Api.Controllers.BaseAsyncController.ApiVersion(System.String)">
+            <summary>
+            Log which version of the controller is being called on what method.
+            </summary>
+            <param name="controllerName">Controller Name</param>
+        </member>
+        <member name="T:OnionPattern.Api.Controllers.BaseController">
+            <inheritdoc />
+            <summary>
+            Base Controller with Common Actions
+            </summary>
+        </member>
+        <member name="M:OnionPattern.Api.Controllers.BaseController.ExecuteAndHandleRequest``1(System.Func{``0})">
+            <summary>
+            ExecuteAsync and Handle the Request
+            </summary>
+            <typeparam name="TReturn">Return Type of the Action</typeparam>
+            <param name="action">Action to ExecuteAsync</param>
+            <returns>IActionResult</returns>
+        </member>
+        <member name="M:OnionPattern.Api.Controllers.BaseController.ApiVersion(System.String)">
+            <summary>
+            Log which version of the controller is being called on what method.
+            </summary>
+            <param name="controllerName">Controller Name</param>
+        </member>
+        <member name="T:OnionPattern.Api.Controllers.Menu.Menus">
+            <inheritdoc />
+            <summary>
+            Menu Controller
+            </summary>
+        </member>
+        <member name="M:OnionPattern.Api.Controllers.Menu.Menus.#ctor(OnionPattern.Domain.IServices.RequestAggregate.IMenuRequestAggregate)">
+            <inheritdoc />
+            <summary>
+            Menu Controller
+            </summary>
+            <param name="menuRequestAggregate"></param>
+        </member>
+        <member name="M:OnionPattern.Api.Controllers.Menu.Menus.Get">
+            <summary>
+            Obtener todo los menus.
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:OnionPattern.Api.Controllers.Menu.Menus.Get(System.Int32)">
+            <summary>
+            Obtener menu por Id
+            </summary>
+            <param name="id">Id of the Menu.</param>
+            <returns></returns>
+        </member>
+        <member name="M:OnionPattern.Api.Controllers.Menu.Menus.Crear(OnionPattern.Domain.Entities.Menu.Requests.CreateMenuInput)">
+            <summary>
+            Crear un nuevo menu
+            </summary>
+            <param name="menu">Informacion del menu</param>
+            <returns>Menu Creado</returns>
+        </member>
+        <member name="M:OnionPattern.Api.Controllers.Menu.Menus.Put(OnionPattern.Domain.Entities.Menu.Requests.UpdateMenuInput)">
+            <summary>
+            Actualiza la imagen del menu.
+            </summary>
+            <param name="input">Informacion a actualizar</param>
+            <returns>Menu Actualizado</returns>
+        </member>
+        <member name="M:OnionPattern.Api.Controllers.Menu.Menus.Delete(System.Int32)">
+            <summary>
+            Elimina un menu por su Id
+            </summary>
+            <param name="id">Id de el menu</param>
+            <returns>Menu eliminado</returns>
+        </member>
+        <member name="T:OnionPattern.Api.Controllers.Popup.Popups">
+            <inheritdoc />
+            <summary>
+            Popup Controller
+            </summary>
+        </member>
+        <member name="M:OnionPattern.Api.Controllers.Popup.Popups.#ctor(OnionPattern.Domain.IServices.RequestAggregate.IPopupRequestAggregate)">
+            <inheritdoc />
+            <summary>
+            Popup Controller
+            </summary>
+            <param name="popupRequestAggregate"></param>
+        </member>
+        <member name="M:OnionPattern.Api.Controllers.Popup.Popups.Get">
+            <summary>
+            Obtener todo los popups.
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:OnionPattern.Api.Controllers.Popup.Popups.Get(System.Int32)">
+            <summary>
+            Obtener popup por Id
+            </summary>
+            <param name="id">Id of the Popup.</param>
+            <returns></returns>
+        </member>
+        <member name="M:OnionPattern.Api.Controllers.Popup.Popups.Crear(OnionPattern.Domain.Entities.Popup.Requests.CreatePopupInput)">
+            <summary>
+            Crear un nuevo popup
+            </summary>
+            <param name="popup">Informacion del popup</param>
+            <returns>Popup Creado</returns>
+        </member>
+        <member name="M:OnionPattern.Api.Controllers.Popup.Popups.Put(OnionPattern.Domain.Entities.Popup.Requests.UpdatePopupInput)">
+            <summary>
+            Actualiza la imagen del popup.
+            </summary>
+            <param name="input">Informacion a actualizar</param>
+            <returns>Popup Actualizado</returns>
+        </member>
+        <member name="M:OnionPattern.Api.Controllers.Popup.Popups.Delete(System.Int32)">
+            <summary>
+            Elimina un popup por su Id
+            </summary>
+            <param name="id">Id de el popup</param>
+            <returns>Popup eliminado</returns>
+        </member>
+        <member name="T:OnionPattern.Api.Controllers.Tab.Tabs">
+            <inheritdoc />
+            <summary>
+            Tab Controller
+            </summary>
+        </member>
+        <member name="M:OnionPattern.Api.Controllers.Tab.Tabs.#ctor(OnionPattern.Domain.IServices.RequestAggregate.ITabRequestAggregate)">
+            <inheritdoc />
+            <summary>
+            Tab Controller
+            </summary>
+            <param name="tabRequestAggregate"></param>
+        </member>
+        <member name="M:OnionPattern.Api.Controllers.Tab.Tabs.Get">
+            <summary>
+            Obtener todo los tabs.
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:OnionPattern.Api.Controllers.Tab.Tabs.Get(System.Int32)">
+            <summary>
+            Obtener tab por Id
+            </summary>
+            <param name="id">Id of the Tab.</param>
+            <returns></returns>
+        </member>
+        <member name="M:OnionPattern.Api.Controllers.Tab.Tabs.Crear(OnionPattern.Domain.Entities.Tab.Requests.CreateTabInput)">
+            <summary>
+            Crear un nuevo tab
+            </summary>
+            <param name="tab">Informacion del tab</param>
+            <returns>Tab Creado</returns>
+        </member>
+        <member name="M:OnionPattern.Api.Controllers.Tab.Tabs.Put(OnionPattern.Domain.Entities.Tab.Requests.UpdateTabInput)">
+            <summary>
+            Actualiza la imagen del tab.
+            </summary>
+            <param name="input">Informacion a actualizar</param>
+            <returns>Tab Actualizado</returns>
+        </member>
+        <member name="M:OnionPattern.Api.Controllers.Tab.Tabs.Delete(System.Int32)">
+            <summary>
+            Elimina un tab por su Id
+            </summary>
+            <param name="id">Id de el tab</param>
+            <returns>Tab eliminado</returns>
+        </member>
+        <member name="T:OnionPattern.Api.Controllers.Tema.Temas">
+            <inheritdoc />
+            <summary>
+            Tema Controller
+            </summary>
+        </member>
+        <member name="M:OnionPattern.Api.Controllers.Tema.Temas.#ctor(OnionPattern.Domain.IServices.RequestAggregate.ITemaRequestAggregate)">
+            <inheritdoc />
+            <summary>
+            Tema Controller
+            </summary>
+            <param name="temaRequestAggregate"></param>
+        </member>
+        <member name="M:OnionPattern.Api.Controllers.Tema.Temas.Get">
+            <summary>
+            Obtener todo los temas.
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:OnionPattern.Api.Controllers.Tema.Temas.GetArchivoScss">
+            <summary>
+            Obtener archivo de temas.
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:OnionPattern.Api.Controllers.Tema.Temas.Get(System.Int32)">
+            <summary>
+            Obtener tema por Id
+            </summary>
+            <param name="id">Id of the Tema.</param>
+            <returns></returns>
+        </member>
+        <member name="M:OnionPattern.Api.Controllers.Tema.Temas.Crear(OnionPattern.Domain.Entities.Tema.Requests.CreateTemaInput)">
+            <summary>
+            Crear un nuevo tema
+            </summary>
+            <param name="tema">Informacion del tema</param>
+            <returns>Tema Creado</returns>
+        </member>
+        <member name="M:OnionPattern.Api.Controllers.Tema.Temas.Put(OnionPattern.Domain.Entities.Tema.Requests.UpdateTemaInput)">
+            <summary>
+            Actualiza la imagen del tema.
+            </summary>
+            <param name="input">Informacion a actualizar</param>
+            <returns>Tema Actualizado</returns>
+        </member>
+        <member name="M:OnionPattern.Api.Controllers.Tema.Temas.Delete(System.Int32)">
+            <summary>
+            Elimina un tema por su Id
+            </summary>
+            <param name="id">Id de el tema</param>
+            <returns>Tema eliminado</returns>
+        </member>
+        <member name="T:OnionPattern.Api.Controllers.User.UsersAsyncController">
+            <inheritdoc />
+            <summary>
+            usuarios Controller
+            </summary>
+        </member>
+        <member name="M:OnionPattern.Api.Controllers.User.UsersAsyncController.#ctor(OnionPattern.Domain.IServices.RequestAggregate.Async.IUserRequestAggregateAsync)">
+            <inheritdoc />
+            <summary>
+            Video Games Controller
+            </summary>
+            <param name="userRequestAggregateAsync"></param>
+        </member>
+        <member name="M:OnionPattern.Api.Controllers.User.UsersAsyncController.Get">
+            <summary>
+            Get a list of all games.
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="T:OnionPattern.Api.Program">
+            <summary>
+            Program DependencyInjectorHost
+            </summary>
+        </member>
+        <member name="M:OnionPattern.Api.Program.Main(System.String[])">
+            <summary>
+            Main entry into the program.
+            </summary>
+            <param name="args"></param>
+            <exception cref="T:System.UnauthorizedAccessException">The caller does not have the required permission.</exception>
+            <exception cref="T:System.NotSupportedException">The operating system is Windows CE, which does not have current directory functionality.   This method is available in the .NET Compact Framework, but is not currently supported.</exception>
+        </member>
+        <member name="M:OnionPattern.Api.Program.BuildWebHost(System.String[])">
+            <summary>
+            </summary>
+            <param name="args"></param>
+            <returns></returns>
+            <exception cref="T:System.UnauthorizedAccessException">The caller does not have the required permission.</exception>
+            <exception cref="T:System.NotSupportedException">The operating system is Windows CE, which does not have current directory functionality.   This method is available in the .NET Compact Framework, but is not currently supported.</exception>
+        </member>
+        <member name="T:OnionPattern.Api.Startup">
+            <summary>
+            Application Startup Configuration
+            </summary>
+        </member>
+        <member name="P:OnionPattern.Api.Startup.Configuration">
+            <summary>
+            Configuration Root
+            </summary>
+        </member>
+        <member name="M:OnionPattern.Api.Startup.#ctor(Microsoft.AspNetCore.Hosting.IHostingEnvironment)">
+            <summary>
+            Ctor
+            </summary>
+            <param name="environment">Hosting Environment</param>
+        </member>
+        <member name="M:OnionPattern.Api.Startup.ConfigureServices(Microsoft.Extensions.DependencyInjection.IServiceCollection)">
+            <summary>
+            This method gets called by the runtime. Use this method to add services to the container.
+            </summary>
+        </member>
+        <member name="M:OnionPattern.Api.Startup.Configure(Microsoft.AspNetCore.Builder.IApplicationBuilder,Microsoft.Extensions.Logging.ILoggerFactory,Microsoft.AspNetCore.Mvc.ApiExplorer.IApiVersionDescriptionProvider)">
+            <summary>
+            This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
+            </summary>
+            <param name="application"></param>
+            <param name="loggerFactory"></param>
+            <param name="apiVersionDescriptionProvider"></param>
+        </member>
+    </members>
+</doc>

@@ -1,0 +1,24 @@
+{
+  "profiles": {
+    "OnionPattern.Api.Local.LocalDb": {
+      "commandName": "Project",
+      "launchBrowser": true,
+      "launchUrl": "http://localhost:52532/swagger",
+      "environmentVariables": {
+        "InMemoryDb": "false",
+        "ASPNETCORE_ENVIRONMENT": "Local"
+      },
+      "applicationUrl": "http://localhost:52532/swagger"
+    },
+    "OnionPattern.Api.Local.InMemory": {
+      "commandName": "Project",
+      "launchBrowser": true,
+      "launchUrl": "http://localhost:52532/swagger",
+      "environmentVariables": {
+        "InMemoryDb": "true",
+        "ASPNETCORE_ENVIRONMENT": "Local"
+      },
+      "applicationUrl": "http://localhost:52532/swagger"
+    }
+  }
+}

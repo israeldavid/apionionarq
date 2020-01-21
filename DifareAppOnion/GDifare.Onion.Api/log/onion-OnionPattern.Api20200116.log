@@ -1,0 +1,57 @@
+2020-01-16 14:35:03.829 -05:00 [] Updating Logging { Application: "OnionPattern.Api" }
+2020-01-16 14:35:15.650 -05:00 [] Setting Kestrel Server Options { Application: "OnionPattern.Api" }
+2020-01-16 14:37:19.893 -05:00 [] Updating Logging { Application: "OnionPattern.Api" }
+2020-01-16 14:37:27.683 -05:00 [] Setting Kestrel Server Options { Application: "OnionPattern.Api" }
+2020-01-16 14:37:50.589 -05:00 [] CorrelationId 5d5eded0-666c-4c93-aa02-4e8dd8797351 generated { Application: "OnionPattern.Api" }
+2020-01-16 14:37:50.933 -05:00 [] HTTP GET /api/v1/Menus responded 500 in 895.79950000000008 ms { RequestProtocol: "HTTP/1.1", RequestHost: "localhost:52532", RequestHeaders: [("Connection": "keep-alive"), ("Accept": "application/json"), ("Accept-Encoding": "gzip, deflate, br"), ("Accept-Language": "es-ES,es;q=0.9"), ("Host": "localhost:52532"), ("Referer": "http://localhost:52532/swagger/index.html"), ("User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.117 Safari/537.36"), ("Sec-Fetch-Site": "same-origin"), ("Sec-Fetch-Mode": "cors")], CorrelationId: "5d5eded0-666c-4c93-aa02-4e8dd8797351", Application: "OnionPattern.Api" }
+System.InvalidOperationException: Unable to resolve service for type 'OnionPattern.Domain.IServices.RequestAggregate.IMenuRequestAggregate' while attempting to activate 'OnionPattern.Api.Controllers.Menu.Menus'.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.GetService(IServiceProvider sp, Type type, Type requiredBy, Boolean isDefaultParameterRequired)
+   at lambda_method(Closure , IServiceProvider , Object[] )
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass5_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeInnerFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeNextResourceFilter()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Rethrow(ResourceExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeFilterPipelineAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeAsync()
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware.Invoke(HttpContext httpContext)
+   at OnionPattern.Api.Configuration.Startup.Logging.CorrelationMiddleware.<>c.<<Configure>b__2_0>d.MoveNext() in D:\Difare\DifareArquitecturaCore\Fuentes\CoreApp\Backend\Difare-BackEnd\OnionPattern.Api\Configuration\Startup\Logging\CorrelationMiddleware.cs:line 60
+2020-01-16 14:38:22.681 -05:00 [] CorrelationId 855267d8-dfda-4dcc-b9e6-f5d7d04efec1 generated { Application: "OnionPattern.Api" }
+2020-01-16 14:38:22.712 -05:00 [] HTTP GET /api/v1/Menus responded 500 in 41.162800000000004 ms { RequestProtocol: "HTTP/1.1", RequestHost: "localhost:52532", RequestHeaders: [("Connection": "keep-alive"), ("Accept": "application/json"), ("Accept-Encoding": "gzip, deflate, br"), ("Accept-Language": "es-ES,es;q=0.9"), ("Host": "localhost:52532"), ("Referer": "http://localhost:52532/swagger/index.html"), ("User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.117 Safari/537.36"), ("Sec-Fetch-Site": "same-origin"), ("Sec-Fetch-Mode": "cors")], CorrelationId: "855267d8-dfda-4dcc-b9e6-f5d7d04efec1", Application: "OnionPattern.Api" }
+System.InvalidOperationException: Unable to resolve service for type 'OnionPattern.Domain.IServices.RequestAggregate.IMenuRequestAggregate' while attempting to activate 'OnionPattern.Api.Controllers.Menu.Menus'.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.GetService(IServiceProvider sp, Type type, Type requiredBy, Boolean isDefaultParameterRequired)
+   at lambda_method(Closure , IServiceProvider , Object[] )
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass5_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeInnerFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeNextResourceFilter()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Rethrow(ResourceExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeFilterPipelineAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeAsync()
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware.Invoke(HttpContext httpContext)
+   at OnionPattern.Api.Configuration.Startup.Logging.CorrelationMiddleware.<>c.<<Configure>b__2_0>d.MoveNext() in D:\Difare\DifareArquitecturaCore\Fuentes\CoreApp\Backend\Difare-BackEnd\OnionPattern.Api\Configuration\Startup\Logging\CorrelationMiddleware.cs:line 60
+2020-01-16 14:58:15.345 -05:00 [] Updating Logging { Application: "OnionPattern.Api" }
+2020-01-16 14:58:20.283 -05:00 [] Setting Kestrel Server Options { Application: "OnionPattern.Api" }
+2020-01-16 14:59:44.567 -05:00 [] Recuperando lista de Banners... { Application: "OnionPattern.Api" }
+2020-01-16 14:59:45.536 -05:00 [] No hay banners devueltos. { Application: "OnionPattern.Api" }
+System.Exception: No hay banners devueltos.
+2020-01-16 15:02:04.333 -05:00 [] CorrelationId af2ff99e-cbcc-46ff-ab38-c54a4deca75a generated { Application: "OnionPattern.Api" }
+2020-01-16 15:02:04.361 -05:00 [] HTTP GET /api/v1/Popups responded 404 in 681 ms { CorrelationId: "af2ff99e-cbcc-46ff-ab38-c54a4deca75a", Application: "OnionPattern.Api" }
+2020-01-16 15:51:46.192 -05:00 [] Updating Logging { Application: "OnionPattern.Api" }
+2020-01-16 15:51:50.861 -05:00 [] Setting Kestrel Server Options { Application: "OnionPattern.Api" }
+2020-01-16 16:03:11.665 -05:00 [] Updating Logging { Application: "OnionPattern.Api" }
+2020-01-16 16:03:15.610 -05:00 [] Setting Kestrel Server Options { Application: "OnionPattern.Api" }
+2020-01-16 16:03:43.978 -05:00 [] Creando Banner Con nombre [string]... { Application: "OnionPattern.Api" }
+2020-01-16 16:03:44.653 -05:00 [] Banner creado con el nombre [string] con el Id: [1] { Application: "OnionPattern.Api" }
+2020-01-16 16:03:45.054 -05:00 [] CorrelationId 221d63c8-3a16-4419-a2d4-f23e928e5000 generated { Application: "OnionPattern.Api" }
+2020-01-16 16:03:45.064 -05:00 [] HTTP POST /api/v1/Banners responded 200 in 112 ms { CorrelationId: "221d63c8-3a16-4419-a2d4-f23e928e5000", Application: "OnionPattern.Api" }
+2020-01-16 16:04:05.167 -05:00 [] Recuperando lista de Banners... { Application: "OnionPattern.Api" }
+2020-01-16 16:04:06.848 -05:00 [] Devuelto [1] Banners. { Application: "OnionPattern.Api" }
+2020-01-16 16:04:06.866 -05:00 [] CorrelationId de6872a6-d324-4475-a51b-ab330ab03c8d generated { Application: "OnionPattern.Api" }
+2020-01-16 16:04:07.167 -05:00 [] HTTP GET /api/v1/Banners responded 200 in 339 ms { CorrelationId: "de6872a6-d324-4475-a51b-ab330ab03c8d", Application: "OnionPattern.Api" }
+2020-01-16 16:08:03.952 -05:00 [] Updating Logging { Application: "OnionPattern.Api" }
+2020-01-16 16:08:11.532 -05:00 [] Setting Kestrel Server Options { Application: "OnionPattern.Api" }

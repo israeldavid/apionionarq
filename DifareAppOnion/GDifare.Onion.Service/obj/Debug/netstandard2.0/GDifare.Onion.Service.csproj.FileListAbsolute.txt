@@ -1,0 +1,11 @@
+C:\Users\israel.ortega\source\repos\DifareAppOnion\DifareAppOnion\GDifare.Onion.Service\bin\Debug\netstandard2.0\GDifare.Onion.Service.deps.json
+C:\Users\israel.ortega\source\repos\DifareAppOnion\DifareAppOnion\GDifare.Onion.Service\bin\Debug\netstandard2.0\GDifare.Onion.Service.dll
+C:\Users\israel.ortega\source\repos\DifareAppOnion\DifareAppOnion\GDifare.Onion.Service\bin\Debug\netstandard2.0\GDifare.Onion.Service.pdb
+C:\Users\israel.ortega\source\repos\DifareAppOnion\DifareAppOnion\GDifare.Onion.Service\bin\Debug\netstandard2.0\GDifare.Onion.Domain.dll
+C:\Users\israel.ortega\source\repos\DifareAppOnion\DifareAppOnion\GDifare.Onion.Service\bin\Debug\netstandard2.0\GDifare.Onion.Domain.pdb
+C:\Users\israel.ortega\source\repos\DifareAppOnion\DifareAppOnion\GDifare.Onion.Service\obj\Debug\netstandard2.0\GDifare.Onion.Service.csprojAssemblyReference.cache
+C:\Users\israel.ortega\source\repos\DifareAppOnion\DifareAppOnion\GDifare.Onion.Service\obj\Debug\netstandard2.0\GDifare.Onion.Service.AssemblyInfoInputs.cache
+C:\Users\israel.ortega\source\repos\DifareAppOnion\DifareAppOnion\GDifare.Onion.Service\obj\Debug\netstandard2.0\GDifare.Onion.Service.AssemblyInfo.cs
+C:\Users\israel.ortega\source\repos\DifareAppOnion\DifareAppOnion\GDifare.Onion.Service\obj\Debug\netstandard2.0\GDifare.Onion.Service.csproj.CopyComplete
+C:\Users\israel.ortega\source\repos\DifareAppOnion\DifareAppOnion\GDifare.Onion.Service\obj\Debug\netstandard2.0\GDifare.Onion.Service.dll
+C:\Users\israel.ortega\source\repos\DifareAppOnion\DifareAppOnion\GDifare.Onion.Service\obj\Debug\netstandard2.0\GDifare.Onion.Service.pdb

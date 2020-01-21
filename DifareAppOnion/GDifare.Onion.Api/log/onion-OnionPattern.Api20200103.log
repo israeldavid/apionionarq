@@ -1,0 +1,385 @@
+2020-01-03 09:45:07.392 -05:00 [] Updating Logging { Application: "OnionPattern.Api" }
+2020-01-03 09:45:13.541 -05:00 [] Setting Kestrel Server Options { Application: "OnionPattern.Api" }
+2020-01-03 10:38:20.477 -05:00 [] Updating Logging { Application: "OnionPattern.Api" }
+2020-01-03 10:38:23.212 -05:00 [] Setting Kestrel Server Options { Application: "OnionPattern.Api" }
+2020-01-03 10:47:09.068 -05:00 [] Updating Logging { Application: "OnionPattern.Api" }
+2020-01-03 10:47:10.807 -05:00 [] Setting Kestrel Server Options { Application: "OnionPattern.Api" }
+2020-01-03 10:47:27.909 -05:00 [] CorrelationId 6c7c1566-4cde-46a3-91ce-0d755933790c generated { Application: "OnionPattern.Api" }
+2020-01-03 10:47:28.603 -05:00 [] HTTP GET /api/v1/UsersAsync/all responded 500 in 2170.1112000000003 ms { RequestProtocol: "HTTP/1.1", RequestHost: "localhost:52532", RequestHeaders: [("Cache-Control": "no-cache"), ("Connection": "keep-alive"), ("Pragma": "no-cache"), ("Accept": "application/json"), ("Accept-Encoding": "gzip, deflate, br"), ("Accept-Language": "es-ES,es;q=0.9"), ("Host": "localhost:52532"), ("Referer": "http://localhost:52532/swagger/index.html"), ("User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.88 Safari/537.36"), ("Sec-Fetch-Site": "same-origin"), ("Sec-Fetch-Mode": "cors")], CorrelationId: "6c7c1566-4cde-46a3-91ce-0d755933790c", Application: "OnionPattern.Api" }
+System.InvalidOperationException: Unable to resolve service for type 'OnionPattern.Domain.IServices.RequestAggregate.Async.IUserRequestAggregateAsync' while attempting to activate 'OnionPattern.Api.Controllers.User.UsersAsyncController'.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.GetService(IServiceProvider sp, Type type, Type requiredBy, Boolean isDefaultParameterRequired)
+   at lambda_method(Closure , IServiceProvider , Object[] )
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass5_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeInnerFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeNextResourceFilter()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Rethrow(ResourceExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeFilterPipelineAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeAsync()
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware.Invoke(HttpContext httpContext)
+   at OnionPattern.Api.Configuration.Startup.Logging.CorrelationMiddleware.<>c.<<Configure>b__2_0>d.MoveNext() in C:\Users\michael.merchan\Desktop\PROYECTO-DIFARE\DESARROLLO DIFARE\OnionPattern-Develop\OnionPattern\OnionPattern.Api\Configuration\Startup\Logging\CorrelationMiddleware.cs:line 60
+2020-01-03 10:56:36.345 -05:00 [] Updating Logging { Application: "OnionPattern.Api" }
+2020-01-03 10:56:38.120 -05:00 [] Setting Kestrel Server Options { Application: "OnionPattern.Api" }
+2020-01-03 11:09:28.675 -05:00 [] Updating Logging { Application: "OnionPattern.Api" }
+2020-01-03 11:09:30.674 -05:00 [] Setting Kestrel Server Options { Application: "OnionPattern.Api" }
+2020-01-03 11:59:28.472 -05:00 [] Updating Logging { Application: "OnionPattern.Api" }
+2020-01-03 11:59:30.689 -05:00 [] Setting Kestrel Server Options { Application: "OnionPattern.Api" }
+2020-01-03 12:00:54.285 -05:00 [] Updating Logging { Application: "OnionPattern.Api" }
+2020-01-03 12:01:21.267 -05:00 [] Setting Kestrel Server Options { Application: "OnionPattern.Api" }
+2020-01-03 12:05:28.437 -05:00 [] Updating Logging { Application: "OnionPattern.Api" }
+2020-01-03 12:05:30.901 -05:00 [] Setting Kestrel Server Options { Application: "OnionPattern.Api" }
+2020-01-03 12:07:06.903 -05:00 [] Updating Logging { Application: "OnionPattern.Api" }
+2020-01-03 12:07:08.801 -05:00 [] Setting Kestrel Server Options { Application: "OnionPattern.Api" }
+2020-01-03 12:07:23.518 -05:00 [] CorrelationId f3ce3fd5-d12e-4f95-8acb-faf946e28604 generated { Application: "OnionPattern.Api" }
+2020-01-03 12:07:23.674 -05:00 [] HTTP GET /api/v1/UsersAsync/all responded 500 in 483.144 ms { RequestProtocol: "HTTP/1.1", RequestHost: "localhost:52532", RequestHeaders: [("Cache-Control": "no-cache"), ("Connection": "keep-alive"), ("Pragma": "no-cache"), ("Accept": "application/json"), ("Accept-Encoding": "gzip, deflate, br"), ("Accept-Language": "es-ES,es;q=0.9"), ("Host": "localhost:52532"), ("Referer": "http://localhost:52532/swagger/index.html"), ("User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.88 Safari/537.36"), ("Sec-Fetch-Site": "same-origin"), ("Sec-Fetch-Mode": "cors")], CorrelationId: "f3ce3fd5-d12e-4f95-8acb-faf946e28604", Application: "OnionPattern.Api" }
+System.InvalidOperationException: Unable to resolve service for type 'OnionPattern.Domain.IServices.RequestAggregate.Async.IUserRequestAggregateAsync' while attempting to activate 'OnionPattern.Api.Controllers.User.UsersAsyncController'.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.GetService(IServiceProvider sp, Type type, Type requiredBy, Boolean isDefaultParameterRequired)
+   at lambda_method(Closure , IServiceProvider , Object[] )
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass5_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeInnerFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeNextResourceFilter()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Rethrow(ResourceExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeFilterPipelineAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeAsync()
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware.Invoke(HttpContext httpContext)
+   at OnionPattern.Api.Configuration.Startup.Logging.CorrelationMiddleware.<>c.<<Configure>b__2_0>d.MoveNext() in C:\Users\michael.merchan\Desktop\PROYECTO-DIFARE\DESARROLLO DIFARE\OnionPattern-Develop\OnionPattern\OnionPattern.Api\Configuration\Startup\Logging\CorrelationMiddleware.cs:line 60
+2020-01-03 12:08:33.804 -05:00 [] CorrelationId cd1e7737-8280-40bc-8d7b-0c37c10becd7 generated { Application: "OnionPattern.Api" }
+2020-01-03 12:08:33.835 -05:00 [] HTTP GET /api/v1/UsersAsync/all responded 500 in 43.8149 ms { RequestProtocol: "HTTP/1.1", RequestHost: "localhost:52532", RequestHeaders: [("Cache-Control": "no-cache"), ("Connection": "keep-alive"), ("Pragma": "no-cache"), ("Accept": "application/json"), ("Accept-Encoding": "gzip, deflate, br"), ("Accept-Language": "es-ES,es;q=0.9"), ("Host": "localhost:52532"), ("Referer": "http://localhost:52532/swagger/index.html"), ("User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.88 Safari/537.36"), ("Sec-Fetch-Site": "same-origin"), ("Sec-Fetch-Mode": "cors")], CorrelationId: "cd1e7737-8280-40bc-8d7b-0c37c10becd7", Application: "OnionPattern.Api" }
+System.InvalidOperationException: Unable to resolve service for type 'OnionPattern.Domain.IServices.RequestAggregate.Async.IUserRequestAggregateAsync' while attempting to activate 'OnionPattern.Api.Controllers.User.UsersAsyncController'.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.GetService(IServiceProvider sp, Type type, Type requiredBy, Boolean isDefaultParameterRequired)
+   at lambda_method(Closure , IServiceProvider , Object[] )
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass5_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeInnerFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeNextResourceFilter()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Rethrow(ResourceExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeFilterPipelineAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeAsync()
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware.Invoke(HttpContext httpContext)
+   at OnionPattern.Api.Configuration.Startup.Logging.CorrelationMiddleware.<>c.<<Configure>b__2_0>d.MoveNext() in C:\Users\michael.merchan\Desktop\PROYECTO-DIFARE\DESARROLLO DIFARE\OnionPattern-Develop\OnionPattern\OnionPattern.Api\Configuration\Startup\Logging\CorrelationMiddleware.cs:line 60
+2020-01-03 12:09:16.674 -05:00 [] CorrelationId 996fa1b2-8416-4898-876e-4c58ceedae57 generated { Application: "OnionPattern.Api" }
+2020-01-03 12:09:16.718 -05:00 [] HTTP GET /api/v1/UsersAsync/all responded 500 in 45.1315 ms { RequestProtocol: "HTTP/1.1", RequestHost: "localhost:52532", RequestHeaders: [("Cache-Control": "no-cache"), ("Connection": "keep-alive"), ("Pragma": "no-cache"), ("Accept": "application/json"), ("Accept-Encoding": "gzip, deflate, br"), ("Accept-Language": "es-ES,es;q=0.9"), ("Host": "localhost:52532"), ("Referer": "http://localhost:52532/swagger/index.html"), ("User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.88 Safari/537.36"), ("Sec-Fetch-Site": "same-origin"), ("Sec-Fetch-Mode": "cors")], CorrelationId: "996fa1b2-8416-4898-876e-4c58ceedae57", Application: "OnionPattern.Api" }
+System.InvalidOperationException: Unable to resolve service for type 'OnionPattern.Domain.IServices.RequestAggregate.Async.IUserRequestAggregateAsync' while attempting to activate 'OnionPattern.Api.Controllers.User.UsersAsyncController'.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.GetService(IServiceProvider sp, Type type, Type requiredBy, Boolean isDefaultParameterRequired)
+   at lambda_method(Closure , IServiceProvider , Object[] )
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass5_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeInnerFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeNextResourceFilter()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Rethrow(ResourceExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeFilterPipelineAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeAsync()
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware.Invoke(HttpContext httpContext)
+   at OnionPattern.Api.Configuration.Startup.Logging.CorrelationMiddleware.<>c.<<Configure>b__2_0>d.MoveNext() in C:\Users\michael.merchan\Desktop\PROYECTO-DIFARE\DESARROLLO DIFARE\OnionPattern-Develop\OnionPattern\OnionPattern.Api\Configuration\Startup\Logging\CorrelationMiddleware.cs:line 60
+2020-01-03 12:10:24.450 -05:00 [] CorrelationId e912f085-3b42-43e3-bdb6-869c1612dee1 generated { Application: "OnionPattern.Api" }
+2020-01-03 12:10:24.485 -05:00 [] HTTP GET /api/v1/UsersAsync/all responded 500 in 35.690200000000004 ms { RequestProtocol: "HTTP/1.1", RequestHost: "localhost:52532", RequestHeaders: [("Cache-Control": "no-cache"), ("Connection": "keep-alive"), ("Pragma": "no-cache"), ("Accept": "application/json"), ("Accept-Encoding": "gzip, deflate, br"), ("Accept-Language": "es-ES,es;q=0.9"), ("Host": "localhost:52532"), ("Referer": "http://localhost:52532/swagger/index.html"), ("User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.88 Safari/537.36"), ("Sec-Fetch-Site": "same-origin"), ("Sec-Fetch-Mode": "cors")], CorrelationId: "e912f085-3b42-43e3-bdb6-869c1612dee1", Application: "OnionPattern.Api" }
+System.InvalidOperationException: Unable to resolve service for type 'OnionPattern.Domain.IServices.RequestAggregate.Async.IUserRequestAggregateAsync' while attempting to activate 'OnionPattern.Api.Controllers.User.UsersAsyncController'.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.GetService(IServiceProvider sp, Type type, Type requiredBy, Boolean isDefaultParameterRequired)
+   at lambda_method(Closure , IServiceProvider , Object[] )
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass5_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeInnerFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeNextResourceFilter()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Rethrow(ResourceExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeFilterPipelineAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeAsync()
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware.Invoke(HttpContext httpContext)
+   at OnionPattern.Api.Configuration.Startup.Logging.CorrelationMiddleware.<>c.<<Configure>b__2_0>d.MoveNext() in C:\Users\michael.merchan\Desktop\PROYECTO-DIFARE\DESARROLLO DIFARE\OnionPattern-Develop\OnionPattern\OnionPattern.Api\Configuration\Startup\Logging\CorrelationMiddleware.cs:line 60
+2020-01-03 12:10:55.874 -05:00 [] CorrelationId ffd44829-0e00-48fe-9c55-5f75895fb92b generated { Application: "OnionPattern.Api" }
+2020-01-03 12:10:55.933 -05:00 [] HTTP GET /api/v1/UsersAsync/all responded 500 in 61.109500000000004 ms { RequestProtocol: "HTTP/1.1", RequestHost: "localhost:52532", RequestHeaders: [("Cache-Control": "no-cache"), ("Connection": "keep-alive"), ("Pragma": "no-cache"), ("Accept": "application/json"), ("Accept-Encoding": "gzip, deflate, br"), ("Accept-Language": "es-ES,es;q=0.9"), ("Host": "localhost:52532"), ("Referer": "http://localhost:52532/swagger/index.html"), ("User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.88 Safari/537.36"), ("Sec-Fetch-Site": "same-origin"), ("Sec-Fetch-Mode": "cors")], CorrelationId: "ffd44829-0e00-48fe-9c55-5f75895fb92b", Application: "OnionPattern.Api" }
+System.InvalidOperationException: Unable to resolve service for type 'OnionPattern.Domain.IServices.RequestAggregate.Async.IUserRequestAggregateAsync' while attempting to activate 'OnionPattern.Api.Controllers.User.UsersAsyncController'.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.GetService(IServiceProvider sp, Type type, Type requiredBy, Boolean isDefaultParameterRequired)
+   at lambda_method(Closure , IServiceProvider , Object[] )
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass5_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeInnerFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeNextResourceFilter()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Rethrow(ResourceExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeFilterPipelineAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeAsync()
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware.Invoke(HttpContext httpContext)
+   at OnionPattern.Api.Configuration.Startup.Logging.CorrelationMiddleware.<>c.<<Configure>b__2_0>d.MoveNext() in C:\Users\michael.merchan\Desktop\PROYECTO-DIFARE\DESARROLLO DIFARE\OnionPattern-Develop\OnionPattern\OnionPattern.Api\Configuration\Startup\Logging\CorrelationMiddleware.cs:line 60
+2020-01-03 12:11:06.385 -05:00 [] CorrelationId 250ac4af-cc7d-4c00-bc1b-89bec47c57d8 generated { Application: "OnionPattern.Api" }
+2020-01-03 12:11:06.425 -05:00 [] HTTP GET /api/v1/UsersAsync/all responded 500 in 41.4863 ms { RequestProtocol: "HTTP/1.1", RequestHost: "localhost:52532", RequestHeaders: [("Cache-Control": "no-cache"), ("Connection": "keep-alive"), ("Pragma": "no-cache"), ("Accept": "application/json"), ("Accept-Encoding": "gzip, deflate, br"), ("Accept-Language": "es-ES,es;q=0.9"), ("Host": "localhost:52532"), ("Referer": "http://localhost:52532/swagger/index.html"), ("User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.88 Safari/537.36"), ("Sec-Fetch-Site": "same-origin"), ("Sec-Fetch-Mode": "cors")], CorrelationId: "250ac4af-cc7d-4c00-bc1b-89bec47c57d8", Application: "OnionPattern.Api" }
+System.InvalidOperationException: Unable to resolve service for type 'OnionPattern.Domain.IServices.RequestAggregate.Async.IUserRequestAggregateAsync' while attempting to activate 'OnionPattern.Api.Controllers.User.UsersAsyncController'.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.GetService(IServiceProvider sp, Type type, Type requiredBy, Boolean isDefaultParameterRequired)
+   at lambda_method(Closure , IServiceProvider , Object[] )
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass5_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeInnerFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeNextResourceFilter()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Rethrow(ResourceExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeFilterPipelineAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeAsync()
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware.Invoke(HttpContext httpContext)
+   at OnionPattern.Api.Configuration.Startup.Logging.CorrelationMiddleware.<>c.<<Configure>b__2_0>d.MoveNext() in C:\Users\michael.merchan\Desktop\PROYECTO-DIFARE\DESARROLLO DIFARE\OnionPattern-Develop\OnionPattern\OnionPattern.Api\Configuration\Startup\Logging\CorrelationMiddleware.cs:line 60
+2020-01-03 12:12:52.552 -05:00 [] Updating Logging { Application: "OnionPattern.Api" }
+2020-01-03 12:12:54.277 -05:00 [] Setting Kestrel Server Options { Application: "OnionPattern.Api" }
+2020-01-03 12:13:10.638 -05:00 [] CorrelationId 07a380c5-d40b-4f0b-bc82-64544771edc1 generated { Application: "OnionPattern.Api" }
+2020-01-03 12:13:10.722 -05:00 [] HTTP GET /api/v1/UsersAsync/all responded 500 in 447.7896 ms { RequestProtocol: "HTTP/1.1", RequestHost: "localhost:52532", RequestHeaders: [("Cache-Control": "no-cache"), ("Connection": "keep-alive"), ("Pragma": "no-cache"), ("Accept": "application/json"), ("Accept-Encoding": "gzip, deflate, br"), ("Accept-Language": "es-ES,es;q=0.9"), ("Host": "localhost:52532"), ("Referer": "http://localhost:52532/swagger/index.html"), ("User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.88 Safari/537.36"), ("Sec-Fetch-Site": "same-origin"), ("Sec-Fetch-Mode": "cors")], CorrelationId: "07a380c5-d40b-4f0b-bc82-64544771edc1", Application: "OnionPattern.Api" }
+System.InvalidOperationException: Unable to resolve service for type 'OnionPattern.Domain.IServices.RequestAggregate.Async.IUserRequestAggregateAsync' while attempting to activate 'OnionPattern.Api.Controllers.User.UsersAsyncController'.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.GetService(IServiceProvider sp, Type type, Type requiredBy, Boolean isDefaultParameterRequired)
+   at lambda_method(Closure , IServiceProvider , Object[] )
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass5_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeInnerFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeNextResourceFilter()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Rethrow(ResourceExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeFilterPipelineAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeAsync()
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware.Invoke(HttpContext httpContext)
+   at OnionPattern.Api.Configuration.Startup.Logging.CorrelationMiddleware.<>c.<<Configure>b__2_0>d.MoveNext() in C:\Users\michael.merchan\Desktop\PROYECTO-DIFARE\DESARROLLO DIFARE\OnionPattern-Develop\OnionPattern\OnionPattern.Api\Configuration\Startup\Logging\CorrelationMiddleware.cs:line 60
+2020-01-03 12:14:39.065 -05:00 [] Updating Logging { Application: "OnionPattern.Api" }
+2020-01-03 12:14:40.711 -05:00 [] Setting Kestrel Server Options { Application: "OnionPattern.Api" }
+2020-01-03 12:15:09.196 -05:00 [] CorrelationId 5835da2a-9d8d-4418-b7eb-c51f712c6005 generated { Application: "OnionPattern.Api" }
+2020-01-03 12:15:09.280 -05:00 [] HTTP GET /api/v1/UsersAsync/all responded 500 in 433.3788 ms { RequestProtocol: "HTTP/1.1", RequestHost: "localhost:52532", RequestHeaders: [("Cache-Control": "no-cache"), ("Connection": "keep-alive"), ("Pragma": "no-cache"), ("Accept": "application/json"), ("Accept-Encoding": "gzip, deflate, br"), ("Accept-Language": "es-ES,es;q=0.9"), ("Host": "localhost:52532"), ("Referer": "http://localhost:52532/swagger/index.html"), ("User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.88 Safari/537.36"), ("Sec-Fetch-Site": "same-origin"), ("Sec-Fetch-Mode": "cors")], CorrelationId: "5835da2a-9d8d-4418-b7eb-c51f712c6005", Application: "OnionPattern.Api" }
+System.InvalidOperationException: Unable to resolve service for type 'OnionPattern.Domain.IServices.RequestAggregate.Async.IUserRequestAggregateAsync' while attempting to activate 'OnionPattern.Api.Controllers.User.UsersAsyncController'.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.GetService(IServiceProvider sp, Type type, Type requiredBy, Boolean isDefaultParameterRequired)
+   at lambda_method(Closure , IServiceProvider , Object[] )
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass5_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeInnerFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeNextResourceFilter()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Rethrow(ResourceExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeFilterPipelineAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeAsync()
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware.Invoke(HttpContext httpContext)
+   at OnionPattern.Api.Configuration.Startup.Logging.CorrelationMiddleware.<>c.<<Configure>b__2_0>d.MoveNext() in C:\Users\michael.merchan\Desktop\PROYECTO-DIFARE\DESARROLLO DIFARE\OnionPattern-Develop\OnionPattern\OnionPattern.Api\Configuration\Startup\Logging\CorrelationMiddleware.cs:line 60
+2020-01-03 12:31:17.922 -05:00 [] Updating Logging { Application: "OnionPattern.Api" }
+2020-01-03 12:31:24.362 -05:00 [] Setting Kestrel Server Options { Application: "OnionPattern.Api" }
+2020-01-03 12:32:24.125 -05:00 [] CorrelationId e8874f39-6452-49d1-ab5b-b10b8d034a66 generated { Application: "OnionPattern.Api" }
+2020-01-03 12:32:24.814 -05:00 [] HTTP GET /api/v1/UsersAsync/all responded 500 in 1644.5278 ms { RequestProtocol: "HTTP/1.1", RequestHost: "localhost:52532", RequestHeaders: [("Cache-Control": "no-cache"), ("Connection": "keep-alive"), ("Pragma": "no-cache"), ("Accept": "application/json"), ("Accept-Encoding": "gzip, deflate, br"), ("Accept-Language": "es-ES,es;q=0.9"), ("Host": "localhost:52532"), ("Referer": "http://localhost:52532/swagger/index.html"), ("User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.88 Safari/537.36"), ("Sec-Fetch-Site": "same-origin"), ("Sec-Fetch-Mode": "cors")], CorrelationId: "e8874f39-6452-49d1-ab5b-b10b8d034a66", Application: "OnionPattern.Api" }
+System.InvalidOperationException: Unable to resolve service for type 'OnionPattern.Domain.IServices.RequestAggregate.Async.IUserRequestAggregateAsync' while attempting to activate 'OnionPattern.Api.Controllers.User.UsersAsyncController'.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.GetService(IServiceProvider sp, Type type, Type requiredBy, Boolean isDefaultParameterRequired)
+   at lambda_method(Closure , IServiceProvider , Object[] )
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass5_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeInnerFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeNextResourceFilter()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Rethrow(ResourceExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeFilterPipelineAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeAsync()
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware.Invoke(HttpContext httpContext)
+   at OnionPattern.Api.Configuration.Startup.Logging.CorrelationMiddleware.<>c.<<Configure>b__2_0>d.MoveNext() in C:\Users\michael.merchan\Desktop\PROYECTO-DIFARE\DESARROLLO DIFARE\OnionPattern-Develop\OnionPattern\OnionPattern.Api\Configuration\Startup\Logging\CorrelationMiddleware.cs:line 60
+2020-01-03 13:37:38.874 -05:00 [] CorrelationId 765fde2c-9f91-4566-8478-e899c040340e generated { Application: "OnionPattern.Api" }
+2020-01-03 13:37:38.921 -05:00 [] HTTP GET /api/v1/UsersAsync/all responded 500 in 50.937200000000004 ms { RequestProtocol: "HTTP/1.1", RequestHost: "localhost:52532", RequestHeaders: [("Cache-Control": "no-cache"), ("Connection": "keep-alive"), ("Pragma": "no-cache"), ("Accept": "application/json"), ("Accept-Encoding": "gzip, deflate, br"), ("Accept-Language": "es-ES,es;q=0.9"), ("Host": "localhost:52532"), ("Referer": "http://localhost:52532/swagger/index.html"), ("User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.88 Safari/537.36"), ("Sec-Fetch-Site": "same-origin"), ("Sec-Fetch-Mode": "cors")], CorrelationId: "765fde2c-9f91-4566-8478-e899c040340e", Application: "OnionPattern.Api" }
+System.InvalidOperationException: Unable to resolve service for type 'OnionPattern.Domain.IServices.RequestAggregate.Async.IUserRequestAggregateAsync' while attempting to activate 'OnionPattern.Api.Controllers.User.UsersAsyncController'.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.GetService(IServiceProvider sp, Type type, Type requiredBy, Boolean isDefaultParameterRequired)
+   at lambda_method(Closure , IServiceProvider , Object[] )
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass5_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeInnerFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeNextResourceFilter()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Rethrow(ResourceExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeFilterPipelineAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeAsync()
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware.Invoke(HttpContext httpContext)
+   at OnionPattern.Api.Configuration.Startup.Logging.CorrelationMiddleware.<>c.<<Configure>b__2_0>d.MoveNext() in C:\Users\michael.merchan\Desktop\PROYECTO-DIFARE\DESARROLLO DIFARE\OnionPattern-Develop\OnionPattern\OnionPattern.Api\Configuration\Startup\Logging\CorrelationMiddleware.cs:line 60
+2020-01-03 13:44:46.362 -05:00 [] Updating Logging { Application: "OnionPattern.Api" }
+2020-01-03 13:44:48.503 -05:00 [] Setting Kestrel Server Options { Application: "OnionPattern.Api" }
+2020-01-03 13:45:13.497 -05:00 [] Creando Banner Con nombre [string]... { Application: "OnionPattern.Api" }
+2020-01-03 13:45:14.004 -05:00 [] Banner creado con el nombre [string] con el Id: [1] { Application: "OnionPattern.Api" }
+2020-01-03 13:45:14.266 -05:00 [] CorrelationId 1dd55b54-6714-4d8a-9596-d01e8436d0de generated { Application: "OnionPattern.Api" }
+2020-01-03 13:45:14.276 -05:00 [] HTTP POST /api/v1/Banners responded 200 in 665 ms { CorrelationId: "1dd55b54-6714-4d8a-9596-d01e8436d0de", Application: "OnionPattern.Api" }
+2020-01-03 13:45:20.829 -05:00 [] CorrelationId dcb0a574-43cf-4f1e-9032-15bb58618fab generated { Application: "OnionPattern.Api" }
+2020-01-03 13:45:20.978 -05:00 [] HTTP GET /api/v1/User responded 500 in 132.573 ms { RequestProtocol: "HTTP/1.1", RequestHost: "localhost:52532", RequestHeaders: [("Cache-Control": "no-cache"), ("Connection": "keep-alive"), ("Pragma": "no-cache"), ("Accept": "application/json"), ("Accept-Encoding": "gzip, deflate, br"), ("Accept-Language": "es-ES,es;q=0.9"), ("Host": "localhost:52532"), ("Referer": "http://localhost:52532/swagger/index.html"), ("User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.88 Safari/537.36"), ("Sec-Fetch-Site": "same-origin"), ("Sec-Fetch-Mode": "cors")], CorrelationId: "dcb0a574-43cf-4f1e-9032-15bb58618fab", Application: "OnionPattern.Api" }
+System.InvalidOperationException: Unable to resolve service for type 'OnionPattern.Domain.IServices.RequestAggregate.Async.IUserRequestAggregateAsync' while attempting to activate 'OnionPattern.Api.Controllers.User.UserController'.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.GetService(IServiceProvider sp, Type type, Type requiredBy, Boolean isDefaultParameterRequired)
+   at lambda_method(Closure , IServiceProvider , Object[] )
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass5_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeInnerFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeNextResourceFilter()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Rethrow(ResourceExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeFilterPipelineAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeAsync()
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware.Invoke(HttpContext httpContext)
+   at OnionPattern.Api.Configuration.Startup.Logging.CorrelationMiddleware.<>c.<<Configure>b__2_0>d.MoveNext() in C:\Users\michael.merchan\Desktop\PROYECTO-DIFARE\DESARROLLO DIFARE\OnionPattern-Develop\OnionPattern\OnionPattern.Api\Configuration\Startup\Logging\CorrelationMiddleware.cs:line 60
+2020-01-03 13:45:37.552 -05:00 [] Recuperando lista de Banners... { Application: "OnionPattern.Api" }
+2020-01-03 13:45:38.157 -05:00 [] Devuelto [1] Banners. { Application: "OnionPattern.Api" }
+2020-01-03 13:45:38.170 -05:00 [] CorrelationId ae79e7c7-824f-43f4-88db-3219b3961bd9 generated { Application: "OnionPattern.Api" }
+2020-01-03 13:45:38.175 -05:00 [] HTTP GET /api/v1/Banners responded 200 in 639 ms { CorrelationId: "ae79e7c7-824f-43f4-88db-3219b3961bd9", Application: "OnionPattern.Api" }
+2020-01-03 13:45:43.254 -05:00 [] Creando Banner Con nombre [string]... { Application: "OnionPattern.Api" }
+2020-01-03 13:45:43.258 -05:00 [] Banner creado con el nombre [string] con el Id: [2] { Application: "OnionPattern.Api" }
+2020-01-03 13:45:43.282 -05:00 [] CorrelationId c2882751-ea25-46e5-a46d-8683bbd70984 generated { Application: "OnionPattern.Api" }
+2020-01-03 13:45:43.288 -05:00 [] HTTP POST /api/v1/Banners responded 200 in 36 ms { CorrelationId: "c2882751-ea25-46e5-a46d-8683bbd70984", Application: "OnionPattern.Api" }
+2020-01-03 13:45:50.017 -05:00 [] Recuperando lista de Banners... { Application: "OnionPattern.Api" }
+2020-01-03 13:45:50.024 -05:00 [] Devuelto [2] Banners. { Application: "OnionPattern.Api" }
+2020-01-03 13:45:50.027 -05:00 [] CorrelationId 60c855a0-7730-458c-83d6-a8ba373a4168 generated { Application: "OnionPattern.Api" }
+2020-01-03 13:45:50.031 -05:00 [] HTTP GET /api/v1/Banners responded 200 in 13 ms { CorrelationId: "60c855a0-7730-458c-83d6-a8ba373a4168", Application: "OnionPattern.Api" }
+2020-01-03 13:46:06.147 -05:00 [] CorrelationId 171a148f-fe33-40b6-bee1-cb535592e6dc generated { Application: "OnionPattern.Api" }
+2020-01-03 13:46:06.194 -05:00 [] HTTP GET /api/v1/User responded 500 in 48.2441 ms { RequestProtocol: "HTTP/1.1", RequestHost: "localhost:52532", RequestHeaders: [("Cache-Control": "no-cache"), ("Connection": "keep-alive"), ("Pragma": "no-cache"), ("Accept": "application/json"), ("Accept-Encoding": "gzip, deflate, br"), ("Accept-Language": "es-ES,es;q=0.9"), ("Host": "localhost:52532"), ("Referer": "http://localhost:52532/swagger/index.html"), ("User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.88 Safari/537.36"), ("Sec-Fetch-Site": "same-origin"), ("Sec-Fetch-Mode": "cors")], CorrelationId: "171a148f-fe33-40b6-bee1-cb535592e6dc", Application: "OnionPattern.Api" }
+System.InvalidOperationException: Unable to resolve service for type 'OnionPattern.Domain.IServices.RequestAggregate.Async.IUserRequestAggregateAsync' while attempting to activate 'OnionPattern.Api.Controllers.User.UserController'.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.GetService(IServiceProvider sp, Type type, Type requiredBy, Boolean isDefaultParameterRequired)
+   at lambda_method(Closure , IServiceProvider , Object[] )
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass5_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeInnerFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeNextResourceFilter()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Rethrow(ResourceExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeFilterPipelineAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeAsync()
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware.Invoke(HttpContext httpContext)
+   at OnionPattern.Api.Configuration.Startup.Logging.CorrelationMiddleware.<>c.<<Configure>b__2_0>d.MoveNext() in C:\Users\michael.merchan\Desktop\PROYECTO-DIFARE\DESARROLLO DIFARE\OnionPattern-Develop\OnionPattern\OnionPattern.Api\Configuration\Startup\Logging\CorrelationMiddleware.cs:line 60
+2020-01-03 13:47:10.506 -05:00 [] Updating Logging { Application: "OnionPattern.Api" }
+2020-01-03 13:47:12.536 -05:00 [] Setting Kestrel Server Options { Application: "OnionPattern.Api" }
+2020-01-03 13:47:32.367 -05:00 [] Creando Banner Con nombre [string]... { Application: "OnionPattern.Api" }
+2020-01-03 13:47:32.368 -05:00 [] Creando Banner Con nombre [string]... { Application: "OnionPattern.Api" }
+2020-01-03 13:47:32.897 -05:00 [] Banner creado con el nombre [string] con el Id: [2] { Application: "OnionPattern.Api" }
+2020-01-03 13:47:32.897 -05:00 [] Banner creado con el nombre [string] con el Id: [1] { Application: "OnionPattern.Api" }
+2020-01-03 13:47:33.044 -05:00 [] CorrelationId b678578b-b7f9-44ad-ba70-3c613b2f361e generated { Application: "OnionPattern.Api" }
+2020-01-03 13:47:33.046 -05:00 [] CorrelationId 307bcba0-3c82-4e89-8b54-2a8aff310daa generated { Application: "OnionPattern.Api" }
+2020-01-03 13:47:33.055 -05:00 [] HTTP POST /api/v1/Banners responded 200 in 894 ms { CorrelationId: "307bcba0-3c82-4e89-8b54-2a8aff310daa", Application: "OnionPattern.Api" }
+2020-01-03 13:47:33.055 -05:00 [] HTTP POST /api/v1/Banners responded 200 in 172 ms { CorrelationId: "b678578b-b7f9-44ad-ba70-3c613b2f361e", Application: "OnionPattern.Api" }
+2020-01-03 13:47:39.694 -05:00 [] Recuperando lista de Banners... { Application: "OnionPattern.Api" }
+2020-01-03 13:47:40.087 -05:00 [] Devuelto [2] Banners. { Application: "OnionPattern.Api" }
+2020-01-03 13:47:40.096 -05:00 [] CorrelationId 6cabbc78-3896-41fb-b1e1-863a9c31161f generated { Application: "OnionPattern.Api" }
+2020-01-03 13:47:40.100 -05:00 [] HTTP GET /api/v1/User responded 200 in 415 ms { CorrelationId: "6cabbc78-3896-41fb-b1e1-863a9c31161f", Application: "OnionPattern.Api" }
+2020-01-03 13:51:40.083 -05:00 [] Updating Logging { Application: "OnionPattern.Api" }
+2020-01-03 13:51:42.022 -05:00 [] Setting Kestrel Server Options { Application: "OnionPattern.Api" }
+2020-01-03 13:52:06.239 -05:00 [] Creando Banner Con nombre [string]... { Application: "OnionPattern.Api" }
+2020-01-03 13:52:06.661 -05:00 [] Banner creado con el nombre [string] con el Id: [1] { Application: "OnionPattern.Api" }
+2020-01-03 13:52:06.798 -05:00 [] CorrelationId ead61a23-4e5a-41b6-956f-a66955cc8e61 generated { Application: "OnionPattern.Api" }
+2020-01-03 13:52:06.808 -05:00 [] HTTP POST /api/v1/Banners responded 200 in 768 ms { CorrelationId: "ead61a23-4e5a-41b6-956f-a66955cc8e61", Application: "OnionPattern.Api" }
+2020-01-03 13:52:11.113 -05:00 [] CorrelationId 84366438-7c7c-44f2-b705-2892ff51fab3 generated { Application: "OnionPattern.Api" }
+2020-01-03 13:52:11.224 -05:00 [] HTTP GET /api/v1/User responded 500 in 97.504500000000007 ms { RequestProtocol: "HTTP/1.1", RequestHost: "localhost:52532", RequestHeaders: [("Cache-Control": "no-cache"), ("Connection": "keep-alive"), ("Pragma": "no-cache"), ("Accept": "application/json"), ("Accept-Encoding": "gzip, deflate, br"), ("Accept-Language": "es-ES,es;q=0.9"), ("Host": "localhost:52532"), ("Referer": "http://localhost:52532/swagger/index.html"), ("User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.88 Safari/537.36"), ("Sec-Fetch-Site": "same-origin"), ("Sec-Fetch-Mode": "cors")], CorrelationId: "84366438-7c7c-44f2-b705-2892ff51fab3", Application: "OnionPattern.Api" }
+System.InvalidOperationException: Unable to resolve service for type 'OnionPattern.Domain.IServices.RequestAggregate.Async.IUserRequestAggregateAsync' while attempting to activate 'OnionPattern.Api.Controllers.User.UserController'.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.GetService(IServiceProvider sp, Type type, Type requiredBy, Boolean isDefaultParameterRequired)
+   at lambda_method(Closure , IServiceProvider , Object[] )
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass5_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeInnerFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeNextResourceFilter()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Rethrow(ResourceExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeFilterPipelineAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeAsync()
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware.Invoke(HttpContext httpContext)
+   at OnionPattern.Api.Configuration.Startup.Logging.CorrelationMiddleware.<>c.<<Configure>b__2_0>d.MoveNext() in C:\Users\michael.merchan\Desktop\PROYECTO-DIFARE\DESARROLLO DIFARE\OnionPattern-Develop\OnionPattern\OnionPattern.Api\Configuration\Startup\Logging\CorrelationMiddleware.cs:line 60
+2020-01-03 13:55:26.212 -05:00 [] Updating Logging { Application: "OnionPattern.Api" }
+2020-01-03 13:55:28.406 -05:00 [] Setting Kestrel Server Options { Application: "OnionPattern.Api" }
+2020-01-03 13:55:47.650 -05:00 [] Creando Banner Con nombre [string]... { Application: "OnionPattern.Api" }
+2020-01-03 13:55:48.019 -05:00 [] Banner creado con el nombre [string] con el Id: [1] { Application: "OnionPattern.Api" }
+2020-01-03 13:55:48.142 -05:00 [] CorrelationId 7d32c164-ceee-46a6-a7ff-879064150786 generated { Application: "OnionPattern.Api" }
+2020-01-03 13:55:48.178 -05:00 [] HTTP POST /api/v1/Banners responded 200 in 708 ms { CorrelationId: "7d32c164-ceee-46a6-a7ff-879064150786", Application: "OnionPattern.Api" }
+2020-01-03 13:55:51.520 -05:00 [] Creando Banner Con nombre [string]... { Application: "OnionPattern.Api" }
+2020-01-03 13:55:51.580 -05:00 [] Banner creado con el nombre [string] con el Id: [2] { Application: "OnionPattern.Api" }
+2020-01-03 13:55:51.583 -05:00 [] CorrelationId e30b7a30-936b-4d30-88ba-f2427137203a generated { Application: "OnionPattern.Api" }
+2020-01-03 13:55:51.608 -05:00 [] HTTP POST /api/v1/Banners responded 200 in 93 ms { CorrelationId: "e30b7a30-936b-4d30-88ba-f2427137203a", Application: "OnionPattern.Api" }
+2020-01-03 13:55:56.461 -05:00 [] Recuperando lista de Banners... { Application: "OnionPattern.Api" }
+2020-01-03 13:55:56.930 -05:00 [] Devuelto [2] Banners. { Application: "OnionPattern.Api" }
+2020-01-03 13:55:56.943 -05:00 [] CorrelationId e8e214d9-5339-4419-9b46-f977773d791c generated { Application: "OnionPattern.Api" }
+2020-01-03 13:55:56.957 -05:00 [] HTTP GET /api/v1/Banners responded 200 in 507 ms { CorrelationId: "e8e214d9-5339-4419-9b46-f977773d791c", Application: "OnionPattern.Api" }
+2020-01-03 14:03:13.049 -05:00 [] Updating Logging { Application: "OnionPattern.Api" }
+2020-01-03 14:03:15.478 -05:00 [] Setting Kestrel Server Options { Application: "OnionPattern.Api" }
+2020-01-03 14:03:33.059 -05:00 [] Recuperando lista de Banners... { Application: "OnionPattern.Api" }
+2020-01-03 14:03:33.530 -05:00 [] No hay banners devueltos. { Application: "OnionPattern.Api" }
+System.Exception: No hay banners devueltos.
+2020-01-03 14:03:33.706 -05:00 [] CorrelationId 7134c3db-70cb-47e6-a70a-36a2e0682085 generated { Application: "OnionPattern.Api" }
+2020-01-03 14:03:33.736 -05:00 [] HTTP GET /api/v1/User responded 404 in 959 ms { CorrelationId: "7134c3db-70cb-47e6-a70a-36a2e0682085", Application: "OnionPattern.Api" }
+2020-01-03 14:03:44.936 -05:00 [] Creando Banner Con nombre [string]... { Application: "OnionPattern.Api" }
+2020-01-03 14:03:45.417 -05:00 [] Banner creado con el nombre [string] con el Id: [1] { Application: "OnionPattern.Api" }
+2020-01-03 14:03:45.435 -05:00 [] CorrelationId 7ef3a7ce-63fd-4465-b087-5b7a0f1781f5 generated { Application: "OnionPattern.Api" }
+2020-01-03 14:03:45.445 -05:00 [] HTTP POST /api/v1/Banners responded 200 in 939 ms { CorrelationId: "7ef3a7ce-63fd-4465-b087-5b7a0f1781f5", Application: "OnionPattern.Api" }
+2020-01-03 14:03:50.175 -05:00 [] Recuperando lista de Banners... { Application: "OnionPattern.Api" }
+2020-01-03 14:03:50.227 -05:00 [] Devuelto [1] Banners. { Application: "OnionPattern.Api" }
+2020-01-03 14:03:50.233 -05:00 [] CorrelationId dc8fb2f6-5cf0-4e22-9ea0-520e47afd273 generated { Application: "OnionPattern.Api" }
+2020-01-03 14:03:50.237 -05:00 [] HTTP GET /api/v1/User responded 200 in 67 ms { CorrelationId: "dc8fb2f6-5cf0-4e22-9ea0-520e47afd273", Application: "OnionPattern.Api" }
+2020-01-03 14:04:19.600 -05:00 [] CorrelationId ff6fa335-a49b-4056-b981-0c5f606c5924 generated { Application: "OnionPattern.Api" }
+2020-01-03 14:04:24.223 -05:00 [] HTTP GET /api/v1/UsersAsync/all responded 500 in 19873.108 ms { RequestProtocol: "HTTP/1.1", RequestHost: "localhost:52532", RequestHeaders: [("Cache-Control": "no-cache"), ("Connection": "keep-alive"), ("Pragma": "no-cache"), ("Accept": "application/json"), ("Accept-Encoding": "gzip, deflate, br"), ("Accept-Language": "es-ES,es;q=0.9"), ("Host": "localhost:52532"), ("Referer": "http://localhost:52532/swagger/index.html"), ("User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.88 Safari/537.36"), ("Sec-Fetch-Site": "same-origin"), ("Sec-Fetch-Mode": "cors")], CorrelationId: "ff6fa335-a49b-4056-b981-0c5f606c5924", Application: "OnionPattern.Api" }
+System.InvalidOperationException: Cannot return null from an action method with a return type of 'Microsoft.AspNetCore.Mvc.IActionResult'.
+   at Microsoft.AspNetCore.Mvc.Internal.ActionMethodExecutor.EnsureActionResultNotNull(ObjectMethodExecutor executor, IActionResult actionResult)
+   at Microsoft.AspNetCore.Mvc.Internal.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeNextActionFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Rethrow(ActionExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeInnerFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeNextResourceFilter()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Rethrow(ResourceExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeFilterPipelineAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeAsync()
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware.Invoke(HttpContext httpContext)
+   at OnionPattern.Api.Configuration.Startup.Logging.CorrelationMiddleware.<>c.<<Configure>b__2_0>d.MoveNext() in C:\Users\michael.merchan\Desktop\PROYECTO-DIFARE\DESARROLLO DIFARE\OnionPattern-Develop\OnionPattern\OnionPattern.Api\Configuration\Startup\Logging\CorrelationMiddleware.cs:line 60
+2020-01-03 14:05:19.977 -05:00 [] Updating Logging { Application: "OnionPattern.Api" }
+2020-01-03 14:05:22.604 -05:00 [] Setting Kestrel Server Options { Application: "OnionPattern.Api" }
+2020-01-03 14:05:50.564 -05:00 [] Recuperando lista de Usuarios... { Application: "OnionPattern.Api" }
+2020-01-03 14:05:55.992 -05:00 [] CorrelationId 8a5b9af7-13fd-4941-bfeb-29d94aea0999 generated { Application: "OnionPattern.Api" }
+2020-01-03 14:06:10.502 -05:00 [] Devuelto [10] Usuarios. { Application: "OnionPattern.Api" }
+2020-01-03 14:06:24.265 -05:00 [] HTTP GET /api/v1/UsersAsync/all responded 200 in 494 ms { CorrelationId: "8a5b9af7-13fd-4941-bfeb-29d94aea0999", Application: "OnionPattern.Api" }
+2020-01-03 14:29:04.388 -05:00 [] Updating Logging { Application: "OnionPattern.Api" }
+2020-01-03 14:29:06.915 -05:00 [] Setting Kestrel Server Options { Application: "OnionPattern.Api" }
+2020-01-03 14:29:50.909 -05:00 [] Recuperando lista de Usuarios... { Application: "OnionPattern.Api" }
+2020-01-03 14:29:50.982 -05:00 [] CorrelationId 0334a263-4053-485c-a52a-9f19072ca444 generated { Application: "OnionPattern.Api" }
+2020-01-03 14:29:52.103 -05:00 [] Error al obtener la lista de todos los usuarios. { Application: "OnionPattern.Api" }
+System.Exception: Error getting records: Unexpected character encountered while parsing value: <. Path '', line 0, position 0. ---> System.Exception: Unexpected character encountered while parsing value: <. Path '', line 0, position 0.
+   at OnionPattern.DataAccess.DataServiceAsync.GetAsync[T](Uri requestUrl) in C:\Users\michael.merchan\Desktop\PROYECTO-DIFARE\DESARROLLO DIFARE\OnionPattern-Develop\OnionPattern\OnionPattern.DataAccess.EF\DataServiceAsync.cs:line 45
+   at OnionPattern.DataAccess.EF.Repository.RepositoryAsync`1.GetAllAsync(String requesturl) in C:\Users\michael.merchan\Desktop\PROYECTO-DIFARE\DESARROLLO DIFARE\OnionPattern-Develop\OnionPattern\OnionPattern.DataAccess.EF\Repository\RepositoryAsync.cs:line 43
+   --- End of inner exception stack trace ---
+   at OnionPattern.DataAccess.EF.Repository.RepositoryAsync`1.GetAllAsync(String requesturl) in C:\Users\michael.merchan\Desktop\PROYECTO-DIFARE\DESARROLLO DIFARE\OnionPattern-Develop\OnionPattern\OnionPattern.DataAccess.EF\Repository\RepositoryAsync.cs:line 50
+   at OnionPattern.Service.Requests.JsonPlaceHolder.Async.GetAllUsersRequestAsync.ExecuteAsync() in C:\Users\michael.merchan\Desktop\PROYECTO-DIFARE\DESARROLLO DIFARE\OnionPattern-Develop\OnionPattern\OnionPattern.Service\Requests\JsonPlaceHolder\Async\GetAllUsersRequestAsync.cs:line 26
+2020-01-03 14:29:55.113 -05:00 [] HTTP GET /api/v1/UsersAsync/all responded 200 in 490 ms { CorrelationId: "0334a263-4053-485c-a52a-9f19072ca444", Application: "OnionPattern.Api" }
+2020-01-03 14:31:20.559 -05:00 [] Recuperando lista de Usuarios... { Application: "OnionPattern.Api" }
+2020-01-03 14:31:22.946 -05:00 [] CorrelationId 57617a0c-9c7e-446a-bcd1-bd4edcaf1b8b generated { Application: "OnionPattern.Api" }
+2020-01-03 14:32:05.746 -05:00 [] Error al obtener la lista de todos los usuarios. { Application: "OnionPattern.Api" }
+System.Exception: Error getting records: Unexpected character encountered while parsing value: <. Path '', line 0, position 0. ---> System.Exception: Unexpected character encountered while parsing value: <. Path '', line 0, position 0.
+   at OnionPattern.DataAccess.DataServiceAsync.GetAsync[T](Uri requestUrl) in C:\Users\michael.merchan\Desktop\PROYECTO-DIFARE\DESARROLLO DIFARE\OnionPattern-Develop\OnionPattern\OnionPattern.DataAccess.EF\DataServiceAsync.cs:line 45
+   at OnionPattern.DataAccess.EF.Repository.RepositoryAsync`1.GetAllAsync(String requesturl) in C:\Users\michael.merchan\Desktop\PROYECTO-DIFARE\DESARROLLO DIFARE\OnionPattern-Develop\OnionPattern\OnionPattern.DataAccess.EF\Repository\RepositoryAsync.cs:line 43
+   --- End of inner exception stack trace ---
+   at OnionPattern.DataAccess.EF.Repository.RepositoryAsync`1.GetAllAsync(String requesturl) in C:\Users\michael.merchan\Desktop\PROYECTO-DIFARE\DESARROLLO DIFARE\OnionPattern-Develop\OnionPattern\OnionPattern.DataAccess.EF\Repository\RepositoryAsync.cs:line 50
+   at OnionPattern.Service.Requests.JsonPlaceHolder.Async.GetAllUsersRequestAsync.ExecuteAsync() in C:\Users\michael.merchan\Desktop\PROYECTO-DIFARE\DESARROLLO DIFARE\OnionPattern-Develop\OnionPattern\OnionPattern.Service\Requests\JsonPlaceHolder\Async\GetAllUsersRequestAsync.cs:line 26
+2020-01-03 14:32:24.364 -05:00 [] HTTP GET /api/v1/UsersAsync/all responded 200 in 911 ms { CorrelationId: "57617a0c-9c7e-446a-bcd1-bd4edcaf1b8b", Application: "OnionPattern.Api" }
+2020-01-03 14:32:35.560 -05:00 [] Recuperando lista de Usuarios... { Application: "OnionPattern.Api" }
+2020-01-03 14:32:43.064 -05:00 [] CorrelationId 8a8d520e-15b4-4b7c-ad54-3b084f6e14fc generated { Application: "OnionPattern.Api" }
+2020-01-03 14:33:06.350 -05:00 [] Error al obtener la lista de todos los usuarios. { Application: "OnionPattern.Api" }
+System.Exception: Error getting records: Unexpected character encountered while parsing value: <. Path '', line 0, position 0. ---> System.Exception: Unexpected character encountered while parsing value: <. Path '', line 0, position 0.
+   at OnionPattern.DataAccess.DataServiceAsync.GetAsync[T](Uri requestUrl) in C:\Users\michael.merchan\Desktop\PROYECTO-DIFARE\DESARROLLO DIFARE\OnionPattern-Develop\OnionPattern\OnionPattern.DataAccess.EF\DataServiceAsync.cs:line 45
+   at OnionPattern.DataAccess.EF.Repository.RepositoryAsync`1.GetAllAsync(String requesturl) in C:\Users\michael.merchan\Desktop\PROYECTO-DIFARE\DESARROLLO DIFARE\OnionPattern-Develop\OnionPattern\OnionPattern.DataAccess.EF\Repository\RepositoryAsync.cs:line 43
+   --- End of inner exception stack trace ---
+   at OnionPattern.DataAccess.EF.Repository.RepositoryAsync`1.GetAllAsync(String requesturl) in C:\Users\michael.merchan\Desktop\PROYECTO-DIFARE\DESARROLLO DIFARE\OnionPattern-Develop\OnionPattern\OnionPattern.DataAccess.EF\Repository\RepositoryAsync.cs:line 50
+   at OnionPattern.Service.Requests.JsonPlaceHolder.Async.GetAllUsersRequestAsync.ExecuteAsync() in C:\Users\michael.merchan\Desktop\PROYECTO-DIFARE\DESARROLLO DIFARE\OnionPattern-Develop\OnionPattern\OnionPattern.Service\Requests\JsonPlaceHolder\Async\GetAllUsersRequestAsync.cs:line 26
+2020-01-03 14:33:09.644 -05:00 [] HTTP GET /api/v1/UsersAsync/all responded 200 in 28 ms { CorrelationId: "8a8d520e-15b4-4b7c-ad54-3b084f6e14fc", Application: "OnionPattern.Api" }
+2020-01-03 14:34:28.448 -05:00 [] Updating Logging { Application: "OnionPattern.Api" }
+2020-01-03 14:34:30.305 -05:00 [] Setting Kestrel Server Options { Application: "OnionPattern.Api" }
+2020-01-03 14:35:02.052 -05:00 [] Recuperando lista de Usuarios... { Application: "OnionPattern.Api" }
+2020-01-03 14:35:02.956 -05:00 [] CorrelationId 09cd5fe2-49b5-456e-b98c-59020e05ba5b generated { Application: "OnionPattern.Api" }
+2020-01-03 14:35:04.186 -05:00 [] Devuelto [10] Usuarios. { Application: "OnionPattern.Api" }
+2020-01-03 14:35:05.513 -05:00 [] HTTP GET /api/v1/UsersAsync/all responded 200 in 378 ms { CorrelationId: "09cd5fe2-49b5-456e-b98c-59020e05ba5b", Application: "OnionPattern.Api" }
+2020-01-03 15:42:39.751 -05:00 [] Updating Logging { Application: "OnionPattern.Api" }
+2020-01-03 15:42:46.369 -05:00 [] Setting Kestrel Server Options { Application: "OnionPattern.Api" }
+2020-01-03 15:43:28.289 -05:00 [] Recuperando lista de Usuarios... { Application: "OnionPattern.Api" }
+2020-01-03 15:43:29.184 -05:00 [] CorrelationId 62a24245-6b27-4630-84ff-079103373581 generated { Application: "OnionPattern.Api" }
+2020-01-03 15:43:29.916 -05:00 [] Devuelto [10] Usuarios. { Application: "OnionPattern.Api" }
+2020-01-03 15:43:30.076 -05:00 [] HTTP GET /api/v1/UsersAsync/all responded 200 in 757 ms { CorrelationId: "62a24245-6b27-4630-84ff-079103373581", Application: "OnionPattern.Api" }
+2020-01-03 16:35:49.897 -05:00 [] Updating Logging { Application: "OnionPattern.Api" }
+2020-01-03 16:35:52.956 -05:00 [] Setting Kestrel Server Options { Application: "OnionPattern.Api" }

@@ -1,0 +1,47 @@
+2020-01-17 10:18:31.271 -05:00 [] Updating Logging { Application: "OnionPattern.Api" }
+2020-01-17 10:18:40.924 -05:00 [] Setting Kestrel Server Options { Application: "OnionPattern.Api" }
+2020-01-17 10:19:32.179 -05:00 [] Recuperando lista de Banners... { Application: "OnionPattern.Api" }
+2020-01-17 10:20:25.938 -05:00 [] No hay banners devueltos. { Application: "OnionPattern.Api" }
+System.Exception: No hay banners devueltos.
+2020-01-17 10:20:26.075 -05:00 [] CorrelationId e4bbaa45-0cbc-45f2-85dd-71b6ee1ed063 generated { Application: "OnionPattern.Api" }
+2020-01-17 10:20:26.264 -05:00 [] HTTP GET /api/v1/Banners responded 404 in 943 ms { CorrelationId: "e4bbaa45-0cbc-45f2-85dd-71b6ee1ed063", Application: "OnionPattern.Api" }
+2020-01-17 16:35:38.168 -05:00 [] Updating Logging { Application: "OnionPattern.Api" }
+2020-01-17 16:35:41.799 -05:00 [] Setting Kestrel Server Options { Application: "OnionPattern.Api" }
+2020-01-17 16:36:14.152 -05:00 [] Recuperando lista de Usuarios... { Application: "OnionPattern.Api" }
+2020-01-17 16:36:14.278 -05:00 [] CorrelationId d61ea962-d2e5-4474-8faf-3eaacbc4d14d generated { Application: "OnionPattern.Api" }
+2020-01-17 16:36:16.241 -05:00 [] Devuelto [10] Usuarios. { Application: "OnionPattern.Api" }
+2020-01-17 16:36:16.409 -05:00 [] HTTP GET /api/v1/UsersAsync/all responded 200 in 636 ms { CorrelationId: "d61ea962-d2e5-4474-8faf-3eaacbc4d14d", Application: "OnionPattern.Api" }
+2020-01-17 16:36:26.788 -05:00 [] Creando Banner Con nombre [string]... { Application: "OnionPattern.Api" }
+2020-01-17 16:36:27.044 -05:00 [] Banner creado con el nombre [string] con el Id: [1] { Application: "OnionPattern.Api" }
+2020-01-17 16:36:27.082 -05:00 [] CorrelationId 9cf32617-3931-4115-857e-7fb21cd3e817 generated { Application: "OnionPattern.Api" }
+2020-01-17 16:36:27.085 -05:00 [] HTTP POST /api/v1/Banners responded 200 in 24 ms { CorrelationId: "9cf32617-3931-4115-857e-7fb21cd3e817", Application: "OnionPattern.Api" }
+2020-01-17 16:36:33.899 -05:00 [] Recuperando lista de Banners... { Application: "OnionPattern.Api" }
+2020-01-17 16:36:34.616 -05:00 [] Devuelto [1] Banners. { Application: "OnionPattern.Api" }
+2020-01-17 16:36:34.620 -05:00 [] CorrelationId 0e91167f-3ca5-4d84-a093-f25c99f3b579 generated { Application: "OnionPattern.Api" }
+2020-01-17 16:36:34.624 -05:00 [] HTTP GET /api/v1/Banners responded 200 in 730 ms { CorrelationId: "0e91167f-3ca5-4d84-a093-f25c99f3b579", Application: "OnionPattern.Api" }
+2020-01-17 16:36:39.858 -05:00 [] Creando Banner Con nombre [string]... { Application: "OnionPattern.Api" }
+2020-01-17 16:36:39.862 -05:00 [] Banner creado con el nombre [string] con el Id: [2] { Application: "OnionPattern.Api" }
+2020-01-17 16:36:39.864 -05:00 [] CorrelationId e615db7e-d4d6-4c59-8600-c376ab3993fb generated { Application: "OnionPattern.Api" }
+2020-01-17 16:36:39.899 -05:00 [] HTTP POST /api/v1/Banners responded 200 in 44 ms { CorrelationId: "e615db7e-d4d6-4c59-8600-c376ab3993fb", Application: "OnionPattern.Api" }
+2020-01-17 16:36:43.327 -05:00 [] Recuperando lista de Banners... { Application: "OnionPattern.Api" }
+2020-01-17 16:36:43.334 -05:00 [] Devuelto [2] Banners. { Application: "OnionPattern.Api" }
+2020-01-17 16:36:43.335 -05:00 [] CorrelationId 6228a212-55a4-4869-9843-78d5461e9d42 generated { Application: "OnionPattern.Api" }
+2020-01-17 16:36:43.338 -05:00 [] HTTP GET /api/v1/Banners responded 200 in 11 ms { CorrelationId: "6228a212-55a4-4869-9843-78d5461e9d42", Application: "OnionPattern.Api" }
+2020-01-17 16:45:29.456 -05:00 [] Updating Logging { Application: "OnionPattern.Api" }
+2020-01-17 16:45:32.013 -05:00 [] Setting Kestrel Server Options { Application: "OnionPattern.Api" }
+2020-01-17 16:45:55.431 -05:00 [] Creando Banner Con nombre [string]... { Application: "OnionPattern.Api" }
+2020-01-17 16:45:55.696 -05:00 [] Banner creado con el nombre [string] con el Id: [1] { Application: "OnionPattern.Api" }
+2020-01-17 16:45:55.821 -05:00 [] CorrelationId d23f0bb9-81ac-41a5-9850-3295792c8af8 generated { Application: "OnionPattern.Api" }
+2020-01-17 16:45:55.835 -05:00 [] HTTP POST /api/v1/Banners responded 200 in 822 ms { CorrelationId: "d23f0bb9-81ac-41a5-9850-3295792c8af8", Application: "OnionPattern.Api" }
+2020-01-17 16:46:10.252 -05:00 [] Recuperando lista de Banners... { Application: "OnionPattern.Api" }
+2020-01-17 16:46:10.666 -05:00 [] Devuelto [1] Banners. { Application: "OnionPattern.Api" }
+2020-01-17 16:46:10.672 -05:00 [] CorrelationId e87bb134-a639-454b-b2dd-e11e10d16732 generated { Application: "OnionPattern.Api" }
+2020-01-17 16:46:10.678 -05:00 [] HTTP GET /api/v1/Banners responded 200 in 432 ms { CorrelationId: "e87bb134-a639-454b-b2dd-e11e10d16732", Application: "OnionPattern.Api" }
+2020-01-17 16:46:20.791 -05:00 [] Creando Banner Con nombre [string]... { Application: "OnionPattern.Api" }
+2020-01-17 16:46:20.797 -05:00 [] Banner creado con el nombre [string] con el Id: [2] { Application: "OnionPattern.Api" }
+2020-01-17 16:46:20.801 -05:00 [] CorrelationId 89f5106e-81cc-4bb1-9d38-ddd4e7539af4 generated { Application: "OnionPattern.Api" }
+2020-01-17 16:46:20.805 -05:00 [] HTTP POST /api/v1/Banners responded 200 in 26 ms { CorrelationId: "89f5106e-81cc-4bb1-9d38-ddd4e7539af4", Application: "OnionPattern.Api" }
+2020-01-17 16:46:25.910 -05:00 [] Recuperando lista de Banners... { Application: "OnionPattern.Api" }
+2020-01-17 16:46:25.917 -05:00 [] Devuelto [2] Banners. { Application: "OnionPattern.Api" }
+2020-01-17 16:46:25.918 -05:00 [] CorrelationId 091d9263-00dd-4e9e-a105-93099ed0132d generated { Application: "OnionPattern.Api" }
+2020-01-17 16:46:25.955 -05:00 [] HTTP GET /api/v1/Banners responded 200 in 45 ms { CorrelationId: "091d9263-00dd-4e9e-a105-93099ed0132d", Application: "OnionPattern.Api" }

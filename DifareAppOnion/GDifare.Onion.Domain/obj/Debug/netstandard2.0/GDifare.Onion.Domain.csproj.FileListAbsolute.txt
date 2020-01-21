@@ -1,0 +1,7 @@
+C:\Users\israel.ortega\source\repos\DifareAppOnion\DifareAppOnion\GDifare.Onion.Domain\bin\Debug\netstandard2.0\GDifare.Onion.Domain.deps.json
+C:\Users\israel.ortega\source\repos\DifareAppOnion\DifareAppOnion\GDifare.Onion.Domain\bin\Debug\netstandard2.0\GDifare.Onion.Domain.dll
+C:\Users\israel.ortega\source\repos\DifareAppOnion\DifareAppOnion\GDifare.Onion.Domain\bin\Debug\netstandard2.0\GDifare.Onion.Domain.pdb
+C:\Users\israel.ortega\source\repos\DifareAppOnion\DifareAppOnion\GDifare.Onion.Domain\obj\Debug\netstandard2.0\GDifare.Onion.Domain.AssemblyInfoInputs.cache
+C:\Users\israel.ortega\source\repos\DifareAppOnion\DifareAppOnion\GDifare.Onion.Domain\obj\Debug\netstandard2.0\GDifare.Onion.Domain.AssemblyInfo.cs
+C:\Users\israel.ortega\source\repos\DifareAppOnion\DifareAppOnion\GDifare.Onion.Domain\obj\Debug\netstandard2.0\GDifare.Onion.Domain.dll
+C:\Users\israel.ortega\source\repos\DifareAppOnion\DifareAppOnion\GDifare.Onion.Domain\obj\Debug\netstandard2.0\GDifare.Onion.Domain.pdb
